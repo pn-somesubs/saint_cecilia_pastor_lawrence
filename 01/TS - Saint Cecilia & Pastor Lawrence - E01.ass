@@ -1,0 +1,23 @@
+[Script Info]
+Title: pn-SomeSubs - Saint Cecilia & Pastor Lawrence
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: signs_brown,Arial,60,&H000F2352,&H000000FF,&H00F4F8FA,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
+Style: sign_note,Comic Sans MS,51,&H002B3447,&H000000FF,&H00E4EEF1,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:05:23.63,0:05:24.88,signs_brown,text; arrow,0,0,0,,{\bord0\blur0.5\fs30\pos(384.87,258.53)}Aşırı koruyucusun.
+Dialogue: 0,0:07:15.78,0:07:17.04,signs_brown,Sign,0,0,0,,{\bord0\blur0.5\pos(490.236,830.121)}Biraz saf.
+Dialogue: 0,0:14:09.95,0:14:12.95,sign_note,text,0,0,0,,{\pos(360.942,250.239)\fad(2000,0)\blur0.5\bord0}Lawrence'ın çörekleri muhteşem
+Dialogue: 0,0:14:13.95,0:14:16.96,sign_note,text,0,0,0,,{\pos(1324.176,222.216)\fad(2000,0)\blur0.5\bord0}Biraz daha\Nçeşitlilik katmam lazım...
+Dialogue: 0,0:18:19.07,0:18:20.32,signs_brown,text,0,0,0,,{\bord0\blur0.5\pos(1376.97,933.594)\c&H3A3044&}Malzemeleri aldım.
