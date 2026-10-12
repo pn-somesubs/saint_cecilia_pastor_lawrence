@@ -1,0 +1,506 @@
+[Script Info]
+Title: pn-SomeSubs - Saint Cecilia & Pastor Lawrence
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: main,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
+Style: top,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,8,225,225,60,1
+Style: flashbacktop,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,8,60,60,69,1
+Style: flashbackitalicstop,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,8,60,60,69,1
+Style: episode title,Arial,60,&H00EFF5F5,&H000000FF,&H000059A5,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,90,1
+Style: signs_brown,Arial,60,&H000F2352,&H000000FF,&H00F4F8FA,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
+Style: sign_note,Comic Sans MS,51,&H002B3447,&H000000FF,&H00E4EEF1,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
+Style: OPJP,Rosemary,50,&H00FFFFFF,&H00FFFFFF,&H004E4FDE,&H00FFFFFF,0,0,0,0,100,100,0,0,1,4,0,8,0,0,30,1
+Style: EDJP,2R9BOATD,70,&H007D7CF9,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,3,0,1,2.2,0,7,30,30,20,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:10.74,main,,0,0,0,,{\fs50\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} Blue\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
+Dialogue: 99,0:00:01.74,0:00:05.23,main,Grandpa,0,0,0,,Azizler insanları korur,
+Dialogue: 99,0:00:05.64,0:00:10.99,main,Grandpa,0,0,0,,ve biz de bizi koruyanları koruruz.
+Dialogue: 99,0:00:10.99,0:00:12.99,main,Grandpa,0,0,0,,Anlıyor musun, Lawrence?
+Dialogue: 99,0:00:13.66,0:00:19.24,main,Grandpa,0,0,0,,Eğer bir gün bir azizle karşılaşırsan,\Nbunu asla unutmamalısın.
+Dialogue: 99,0:00:19.24,0:00:23.16,main,Grandpa,0,0,0,,Ne de olsa, sen diğerlerinden\Nbiraz farklısın.
+Dialogue: 99,0:00:32.76,0:00:34.64,main,boy,0,0,0,,Papaz efendi!
+Dialogue: 99,0:00:37.52,0:00:39.52,main,Lawrence,0,0,0,,Ah, merhaba.
+Dialogue: 99,0:00:39.52,0:00:41.88,main,boy's mother,0,0,0,,Meşgulken rahatsız\Nettiğim için özür dilerim.
+Dialogue: 99,0:00:41.88,0:00:46.39,main,boy's mother,0,0,0,,Oğlumun sadece azize hanımla\Nkonuşmak istediği bir konu var.
+Dialogue: 99,0:00:47.27,0:00:50.15,main,Lawrence,0,0,0,,O yüz ifadesine bakılırsa,\Nönemli bir şey olmalı.
+Dialogue: 99,0:00:50.49,0:00:51.81,main,Lawrence,0,0,0,,Hiç sorun değil.
+Dialogue: 99,0:00:51.81,0:00:53.90,main,Lawrence,0,0,0,,Şu anda randevusu yok.
+Dialogue: 99,0:00:54.28,0:00:56.90,main,Lawrence,0,0,0,,Azize Hanım içeride.
+Dialogue: 99,0:00:56.90,0:00:57.91,main,Lawrence,0,0,0,,Azize Hanım!
+Dialogue: 99,0:00:59.16,0:01:00.08,main,Cecilia,0,0,0,,Evet?
+Dialogue: 99,0:01:05.42,0:01:07.77,main,Cecilia,0,0,0,,Benimle\Nkonuşmak istediğiniz bir şey mi var?
+Dialogue: 99,0:01:10.24,0:01:14.25,main,boy,0,0,0,,Yani, arkadaşımla kavga\Nettikten sonra işler böyle kaldı.
+Dialogue: 99,0:01:14.25,0:01:16.80,main,boy,0,0,0,,Yarın onlarla tekrar\Ngörüşmeye başlamak zor olacak.
+Dialogue: 99,0:01:16.80,0:01:19.68,main,boy,0,0,0,,Azize Hanım, ne yapmalıyım?
+Dialogue: 99,0:01:19.96,0:01:23.51,main,Cecilia,0,0,0,,Söyle bana, onları tekrar gördüğünde,bunun daha az acı\Nverici olmasını ne sağlar?
+Dialogue: 99,0:01:23.51,0:01:24.39,main,boy,0,0,0,,Ne?
+Dialogue: 99,0:01:24.39,0:01:25.60,main,boy,0,0,0,,Şey...
+Dialogue: 99,0:01:25.60,0:01:28.90,main,boy,0,0,0,,belki de kavgadan önceki\Nhalimize geri dönmek?
+Dialogue: 99,0:01:28.90,0:01:32.85,main,boy,0,0,0,,Azize Hanım! Güçlerini kullanarak\Nzamanı geriye alabilir misin?
+Dialogue: 99,0:01:32.85,0:01:34.30,main,Cecilia,0,0,0,,Hayır, yapamam.
+Dialogue: 99,0:01:35.29,0:01:40.41,main,Cecilia,0,0,0,,Tek yapabileceğim, birinin\Nkendi yolunda ilerlemesine rehberlik etmek.
+Dialogue: 99,0:01:40.41,0:01:44.41,main,Cecilia,0,0,0,,Eğer o kişi cesaretini toplayıp\Nyola çıkmazsa, şey...
+Dialogue: 99,0:01:44.77,0:01:48.53,main,Cecilia,0,0,0,,Ve ne yapman gerektiğini\Nzaten biliyorsun, değil mi?
+Dialogue: 99,0:01:48.53,0:01:53.02,main,Cecilia,0,0,0,,Endişelenme. O doğru yol.
+Dialogue: 99,0:01:53.02,0:01:56.99,main,boy's mother,0,0,0,,Buraya gelip azize hanımdan\Ntavsiye istemek saygısızlık mı oldu?
+Dialogue: 99,0:01:56.99,0:01:58.24,main,Lawrence,0,0,0,,Hiç de değil.
+Dialogue: 99,0:01:58.24,0:02:02.04,main,Lawrence,0,0,0,,Azize Hanım,\Nherkesin endişelerini dinler.
+Dialogue: 99,0:02:02.30,0:02:05.18,main,Lawrence,0,0,0,,İnsanların şüphelerini ve kararsızlıklarını\Nkabul eder ve onlara yardım eli uzatır.
+Dialogue: 99,0:02:05.84,0:02:08.48,main,Lawrence,0,0,0,,Ne de olsa bu, bir azizin görevidir.
+Dialogue: 0,0:02:13.40,0:02:16.16,OPJP,,0,0,0,,{\fad(150,150)\blur1}Koi no shunkan umarekawaru
+Dialogue: 0,0:02:13.40,0:02:16.16,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Aşık olduğum anda yeniden doğuyorum.
+Dialogue: 0,0:02:16.16,0:02:19.04,OPJP,,0,0,0,,{\fad(150,150)\blur1}Aozora to kimi dake na no
+Dialogue: 0,0:02:16.16,0:02:19.04,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Sadece sen ve mavi gökyüzü.
+Dialogue: 0,0:02:19.52,0:02:24.86,OPJP,,0,0,0,,{\fad(150,150)\blur1}(Turtledove shuua Turtledove padupaa)
+Dialogue: 0,0:02:30.12,0:02:35.93,OPJP,,0,0,0,,{\fad(150,150)\blur1}Nee, hanasaku michi o\Nyurasu futari no kage ni
+Dialogue: 0,0:02:30.12,0:02:35.93,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Hey, çiçeklerin açtığı yolda\Nsallanan ikimizin gölgeleri
+Dialogue: 0,0:02:35.93,0:02:41.60,OPJP,,0,0,0,,{\fad(150,150)\blur1}Choppiri furete kossori tokimeku kokoro
+Dialogue: 0,0:02:35.93,0:02:41.60,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Gizlice dokunman...\Nkalbimi kıpır kıpır ediyor
+Dialogue: 0,0:02:41.60,0:02:47.27,OPJP,,0,0,0,,{\fad(150,150)\blur1}Mou itsumo sono kao\Nyasashii donkan na egao
+Dialogue: 0,0:02:41.60,0:02:47.27,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Her zamanki o ifade, o\Nnazik, hoş gülümseme
+Dialogue: 0,0:02:47.27,0:02:51.85,OPJP,,0,0,0,,{\fad(150,150)\blur1}Kekkyoku kidzukanai\Ndesho? Gakkari kyou mo
+Dialogue: 0,0:02:47.27,0:02:51.85,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Fark etmeyeceksin, değil mi? Bugün\Nde yine hayal kırıklığına uğradım.
+Dialogue: 0,0:02:52.86,0:02:58.41,OPJP,,0,0,0,,{\fad(150,150)\blur1}Lan, Lan koi no suteppu\NTu, Tu kanademashou
+Dialogue: 0,0:02:52.86,0:02:58.41,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Lan Lan, hadi aşkın\Nadımlarını çalalım Tu Tu
+Dialogue: 0,0:02:58.41,0:03:01.29,OPJP,,0,0,0,,{\fad(150,150)\blur1}"Motto shiritai" "chikazukitai"\N"watashi o mite" "kimochi ni kizuite!"
+Dialogue: 0,0:02:58.41,0:03:01.29,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}"Daha fazla bilmek istiyorum", "Yaklaşmak\Nistiyorum", "Bana bak", "Lütfen duygularımı fark et!"
+Dialogue: 0,0:03:01.29,0:03:04.44,OPJP,,0,0,0,,{\fad(150,150)\blur1}Parlayan, Büyüleyici,\NÇiçek açan, Benim ol!
+Dialogue: 0,0:03:01.29,0:03:04.44,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}
+Dialogue: 0,0:03:06.69,0:03:12.64,OPJP,,0,0,0,,{\fad(150,150)\blur1}Kimi no koto kimi no koto\N"suki!" tte sakebitai nda
+Dialogue: 0,0:03:06.69,0:03:12.64,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Senden hoşlanıyorum. Senden hoşlanıyorum.\N"Seni seviyorum!" diye bağırmak istiyorum.
+Dialogue: 0,0:03:12.64,0:03:18.22,OPJP,,0,0,0,,{\fad(150,150)\blur1}Watashi dake watashi dake furimuite waratte
+Dialogue: 0,0:03:12.64,0:03:18.22,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Sadece ben, sadece ben, arkanı dön ve gül
+Dialogue: 0,0:03:18.22,0:03:23.89,OPJP,,0,0,0,,{\fad(150,150)\blur1}Garip, değil mi? Seni\Ndüşündüğümde dünya renkleniyor
+Dialogue: 0,0:03:18.22,0:03:23.89,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Garip. Seni düşündüğümde\Ndünya daha renkli hale geliyor.
+Dialogue: 0,0:03:23.89,0:03:29.49,OPJP,,0,0,0,,{\fad(150,150)\blur1}Mada mada mada mada\Nkono mama owarasenai yo koi o
+Dialogue: 0,0:03:23.89,0:03:29.49,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Daha önümüzde uzun bir yol var,\Naşkımın böyle bitmesine izin vermeyeceğim
+Dialogue: 0,0:03:29.49,0:03:32.36,OPJP,,0,0,0,,{\fad(150,150)\blur1}Unmei no hito meguriaeta
+Dialogue: 0,0:03:29.49,0:03:32.36,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Hayallerimin erkeğiyle tanıştım.
+Dialogue: 0,0:03:32.36,0:03:35.45,OPJP,,0,0,0,,{\fad(150,150)\blur1}Zutto zutto soba ni iru yo
+Dialogue: 0,0:03:32.36,0:03:35.45,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Sonsuza dek yanında olacağım
+Dialogue: 0,0:03:35.45,0:03:38.56,OPJP,,0,0,0,,{\fad(150,150)\blur1}Motto egao misete ne
+Dialogue: 0,0:03:35.45,0:03:38.56,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Lütfen bana daha çok gülümse
+Dialogue: 2,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{=23}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord0\t(23,3694,\bord0)}1. Bölüm
+Dialogue: 2,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{=22}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord0\t(23,3694,\bord0)}Aralarındaki İlişki
+Dialogue: 1,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{=21}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord5\t(23,3694,\bord4.25)\c&HEFF5F5&\1a&HDA&}1. Bölüm
+Dialogue: 1,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{=20}{\clip()\fscx100\t(23,3694,\fscx85,06)\fscy100\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur0\fade(255,0,255,0,800,3710,3710)\bord5\t(23,3694,\bord4.25)\c&HEFF5F5&\1a&HDA&}Aralarındaki İlişki
+Dialogue: 0,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{=19}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\bord6\t(23,3694,\bord5.1)\move(966.46,402.58,962.96,422.58,23,3694)\blur10\fade(255,0,255,0,800,3710,3710)\c&HEFF5F5&\1a&HE9&}1. Bölüm
+Dialogue: 0,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{=18}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\bord6\t(23,3694,\bord5.1)\move(968.62,728.09,964.79,699.47,23,3694)\blur10\fade(255,0,255,0,800,3710,3710)\c&HEFF5F5&\1a&HE9&}Aralarındaki İlişki
+Dialogue: 99,0:03:45.67,0:03:47.99,main,Lawrence,0,0,0,,Harika bir iş çıkardınız, Azize Hanım.
+Dialogue: 99,0:03:47.99,0:03:49.49,main,Lawrence,0,0,0,,Ama merak ediyordum da...
+Dialogue: 99,0:03:49.49,0:03:51.54,main,Cecilia,0,0,0,,Bittim...
+Dialogue: 99,0:03:51.54,0:03:54.17,main,Lawrence,0,0,0,,Sence de önceki tavırlarınla
+Dialogue: 99,0:03:54.17,0:03:56.47,main,Lawrence,0,0,0,,şimdiki görünüşün arasında\Nçok büyük bir uyumsuzluk yok mu?
+Dialogue: 99,0:03:56.47,0:03:58.35,main,Cecilia,0,0,0,,Bunun bir önemi yok, değil mi?
+Dialogue: 99,0:03:58.35,0:04:00.87,main,Cecilia,0,0,0,,Ne de olsa, şu anda burada\Nsenden başkası yok, Lawren.
+Dialogue: 99,0:04:00.87,0:04:01.96,main,Lawrence,0,0,0,,Gerçekten mi?
+Dialogue: 99,0:04:01.96,0:04:03.84,main,Cecilia,0,0,0,,Merak etme, Lawren.
+Dialogue: 99,0:04:03.84,0:04:06.53,main,Cecilia,0,0,0,,Eğer biri gelirse,\Nhemen kendime gelirim.
+Dialogue: 99,0:04:06.53,0:04:08.52,main,Lawrence,0,0,0,,Aslında benim demek\Nistediğim sorun bu değildi—
+Dialogue: 99,0:04:08.52,0:04:10.05,main,madam,0,0,0,,Papaz!
+Dialogue: 99,0:04:10.05,0:04:13.29,main,madam,0,0,0,,Azize Hanım'a\Nvermek istediğim bir şey var!
+Dialogue: 99,0:04:11.19,0:04:13.29,top,Lawrence,0,0,0,,Ah, bir saniye!
+Dialogue: 99,0:04:17.22,0:04:22.04,main,madam; background,0,0,0,,Ah, Azize Hanım! Her\Nzaman çok güzel görünüyorsunuz.
+Dialogue: 99,0:04:20.16,0:04:24.45,top,Lawrence; internal,0,0,0,,{\i1}Nedense, Azize Hanım tembel\Ndavranıyor, ama sadece benim önümde.
+Dialogue: 99,0:04:22.04,0:04:24.44,main,Cecilia; background,0,0,0,,Beni övüyorsunuz.
+Dialogue: 99,0:04:24.73,0:04:27.05,main,Cecilia,0,0,0,,Tembellik...
+Dialogue: 99,0:04:27.05,0:04:30.46,main,Lawrence,0,0,0,,Daha önce de sorduğum gibi, Azize\NHanım, neden böyle yapıyorsunuz?
+Dialogue: 99,0:04:30.46,0:04:32.92,main,Cecilia,0,0,0,,Çünkü artık burada kimse yok.
+Dialogue: 99,0:04:32.92,0:04:35.33,main,Lawrence,0,0,0,,Ve daha önce de söylediğim\Ngibi, asıl mesele bu değildi—
+Dialogue: 99,0:04:35.33,0:04:37.46,main,children,0,0,0,,Azize Hanım!
+Dialogue: 99,0:04:40.48,0:04:42.21,main,Cecilia,0,0,0,,Herkese merhaba!
+Dialogue: 99,0:04:43.61,0:04:46.80,main,Lawrence; internal,0,0,0,,{\i1}Neden sadece benim önümde\Nböyle tembellik ediyor?
+Dialogue: 99,0:04:47.22,0:04:52.29,main,children,0,0,0,,Hoşça kal, Azize Hanım! Papaz!
+Dialogue: 99,0:04:54.22,0:04:56.03,main,Cecilia,0,0,0,,Bittimm...
+Dialogue: 99,0:04:56.03,0:04:57.73,main,Lawrence,0,0,0,,Azize Hanım!
+Dialogue: 99,0:04:58.97,0:05:01.83,main,Lawrence,0,0,0,,Bence bu, aylaklık etmeyi\Nbiraz fazla abartmak oluyor.
+Dialogue: 99,0:05:01.83,0:05:02.96,main,Cecilia,0,0,0,,Aylaklık mı?
+Dialogue: 99,0:05:02.96,0:05:03.78,main,Lawrence,0,0,0,,Evet.
+Dialogue: 99,0:05:03.78,0:05:07.06,main,Lawrence,0,0,0,,Neden burada sadece ben\Nvarken böyle aylaklık ediyorsun?
+Dialogue: 99,0:05:07.06,0:05:09.16,main,Cecilia,0,0,0,,Şey, bunun sebebi...
+Dialogue: 99,0:05:09.16,0:05:13.36,main,Cecilia,0,0,0,,Bunu sen soruyorsun ama bana\Nhiçbir şey yaptırmayan sensin.
+Dialogue: 99,0:05:13.36,0:05:15.96,main,Cecilia,0,0,0,,Çapayla kazmama izin vermiyorsun.
+Dialogue: 99,0:05:15.96,0:05:18.60,main,Lawrence,0,0,0,,Çünkü düşüp kendine zarar verebilirsin.
+Dialogue: 99,0:05:18.60,0:05:20.80,main,Cecilia,0,0,0,,Yemek yapmama da izin vermiyorsun.
+Dialogue: 99,0:05:21.07,0:05:23.80,main,Lawrence,0,0,0,,Çünkü kendini yakabilirsin.
+Dialogue: 0,0:05:23.63,0:05:24.88,signs_brown,text; arrow,0,0,0,,{\bord0\blur0.5\fs30\pos(384.87,258.53)}Aşırı koruyucusun.
+Dialogue: 99,0:05:27.13,0:05:28.16,main,Lawrence,0,0,0,,Peki o zaman!
+Dialogue: 99,0:05:28.16,0:05:31.27,main,Lawrence,0,0,0,,Turuma çıkacağım ve\Ntüm evleri ziyaret edeceğim.
+Dialogue: 99,0:05:31.27,0:05:32.42,main,Lawrence,0,0,0,,Azize Hanım, sen—
+Dialogue: 99,0:05:32.42,0:05:33.18,main,Cecilia,0,0,0,,Ben de geleceğim!
+Dialogue: 99,0:05:33.18,0:05:33.89,main,Lawrence,0,0,0,,Ne?
+Dialogue: 99,0:05:33.89,0:05:35.89,main,Lawrence,0,0,0,,Ama epey yol yürümek zorunda kalacaksın.
+Dialogue: 99,0:05:35.89,0:05:37.21,main,Cecilia,0,0,0,,Geleceğim.
+Dialogue: 99,0:05:37.21,0:05:38.79,main,Lawrence,0,0,0,,Peki.
+Dialogue: 99,0:05:38.79,0:05:41.79,main,Lawrence,0,0,0,,Ama sana bir mucize göstermeni isterlerse,
+Dialogue: 99,0:05:41.79,0:05:43.86,main,Lawrence,0,0,0,,lütfen konuyu ustaca\Ngeçiştirmeyi unutma.
+Dialogue: 99,0:05:44.26,0:05:48.92,main,Lawrence,0,0,0,,Ne de olsa senin gizemli güçlerin\Ngözle görülebilecek türden değil.
+Dialogue: 99,0:05:48.92,0:05:50.36,main,Cecilia,0,0,0,,Anladım.
+Dialogue: 99,0:05:50.36,0:05:52.37,main,Lawrence,0,0,0,,Gerçekten iyi olacak mısın?
+Dialogue: 99,0:05:52.37,0:05:54.04,main,Cecilia,0,0,0,,Ne kadar kaba.
+Dialogue: 99,0:05:54.04,0:05:56.60,main,Cecilia,0,0,0,,Öyleyse, sana hemen burada göstereyim.
+Dialogue: 99,0:05:56.60,0:05:58.62,main,Lawrence,0,0,0,,Evet, lütfen göster.
+Dialogue: 99,0:05:58.62,0:06:00.56,main,Cecilia,0,0,0,,Elimde bir deste kart var...
+Dialogue: 99,0:06:00.56,0:06:01.88,main,Lawrence,0,0,0,,Sen burada kalacaksın!
+Dialogue: 99,0:06:01.88,0:06:03.67,main,Cecilia,0,0,0,,B-Ben iyi olacağım!
+Dialogue: 99,0:06:03.67,0:06:06.32,main,Cecilia,0,0,0,,Garip bir şey yapmayacağıma söz veriyorum!
+Dialogue: 99,0:06:06.32,0:06:08.17,main,Lawrence,0,0,0,,Tamam.
+Dialogue: 99,0:06:08.17,0:06:10.32,main,Lawrence,0,0,0,,O zaman gidip gerekli\Nhazırlıkları yapayım.
+Dialogue: 99,0:06:10.32,0:06:11.48,main,Cecilia,0,0,0,,Tamam!
+Dialogue: 99,0:06:13.46,0:06:17.56,main,Cecilia,0,0,0,,Lawren'le mi çıkacağım?
+Dialogue: 99,0:06:18.88,0:06:20.58,main,Cecilia,0,0,0,,Çok mutluyum!
+Dialogue: 99,0:06:20.58,0:06:22.82,main,Cecilia,0,0,0,,Ah, ama ondan önce...
+Dialogue: 99,0:06:22.82,0:06:25.43,main,Cecilia,0,0,0,,Kilisenin melekleri, buraya toplanın!
+Dialogue: 99,0:06:30.36,0:06:31.93,main,Cecilia,0,0,0,,Siz melekler.
+Dialogue: 99,0:06:31.93,0:06:34.83,main,Cecilia,0,0,0,,Yine Lawren'in peşinden\Ndolaşıyordunuz, değil mi?
+Dialogue: 99,0:06:36.84,0:06:39.76,main,Cecilia,0,0,0,,Onun yanında olmanın ne kadar\Nrahatlatıcı olduğunu gayet iyi anlıyorum,
+Dialogue: 99,0:06:39.76,0:06:42.33,main,Cecilia,0,0,0,,ama lütfen\Nbirazcık kendinizi tutamaz mısınız?
+Dialogue: 99,0:06:42.33,0:06:45.72,main,Cecilia,0,0,0,,Aslında kıskanıyorum, o yüzden\Nlütfen bunu yapmayı bırakın.
+Dialogue: 99,0:06:46.20,0:06:47.89,main,Lawrence,0,0,0,,Sizi beklettiğim için özür dilerim.
+Dialogue: 99,0:06:49.55,0:06:51.21,main,Lawrence,0,0,0,,Bir sorun mu var?
+Dialogue: 99,0:06:51.21,0:06:53.64,main,Cecilia,0,0,0,,Ah, şey, şey...
+Dialogue: 99,0:06:53.64,0:06:56.05,main,Cecilia,0,0,0,,Hadi, acele edelim!
+Dialogue: 99,0:06:56.05,0:06:57.15,main,Lawrence,0,0,0,,Bekle lütfen.
+Dialogue: 99,0:06:57.15,0:06:59.22,main,Lawrence,0,0,0,,Acele edersen, ayağın takılıp düşebilirsin!
+Dialogue: 99,0:07:02.79,0:07:04.74,main,Lawrence,0,0,0,,Ruh halin çok iyi.
+Dialogue: 99,0:07:05.99,0:07:09.15,main,lady,0,0,0,,Papaz, Azize Hanım, merhaba!
+Dialogue: 99,0:07:09.60,0:07:10.92,main,Cecilia,0,0,0,,Merhaba!
+Dialogue: 99,0:07:11.40,0:07:12.69,main,Lawrence; internal,0,0,0,,{\i1}Gerçekten.
+Dialogue: 99,0:07:12.69,0:07:15.64,main,Lawrence; internal,0,0,0,,{\i1}Neden sadece benim\Nönümde böyle davranmıyor ki?
+Dialogue: 0,0:07:15.78,0:07:17.04,signs_brown,Sign,0,0,0,,{\bord0\blur0.5\pos(490.236,830.121)}Biraz saf.
+Dialogue: 99,0:07:17.72,0:07:21.32,main,Lawrence,0,0,0,,O halde, itirazınız yoksa,\Ngelecek hafta da aynısını yapacağız.
+Dialogue: 99,0:07:21.32,0:07:23.11,main,child 1; boy,0,0,0,,Ah, işte azize hanım!
+Dialogue: 99,0:07:23.11,0:07:24.17,main,child 2; girl,0,0,0,,Azize Hanım!
+Dialogue: 99,0:07:24.17,0:07:26.55,main,child 1,0,0,0,,Lütfen bize bir mucize gösterin!
+Dialogue: 99,0:07:26.97,0:07:29.72,main,children,0,0,0,,Bir mucize! Bir mucize!
+Dialogue: 99,0:07:29.72,0:07:33.84,main,Lawrence,0,0,0,,Konuşmanın ortasındayız, biliyorum,\Nama bir dakika izin verir misiniz?
+Dialogue: 99,0:07:33.96,0:07:37.07,main,Cecilia,0,0,0,,Onları bu fikirden vazgeçiremedim,
+Dialogue: 99,0:07:37.07,0:07:39.60,main,Cecilia,0,0,0,,bu yüzden sessiz kalma hakkımı kullandım.
+Dialogue: 99,0:07:39.60,0:07:42.68,main,Lawrence,0,0,0,,Az önce gerçekten de ne\Nyapacağını bilemez gibi görünüyordun.
+Dialogue: 99,0:07:43.34,0:07:44.36,main,Cecilia,0,0,0,,Şey, yani...
+Dialogue: 99,0:07:44.36,0:07:48.86,main,Lawrence,0,0,0,,Şu anda, çocukları ikna\Netmenin bir yolunu bulmalıyız...
+Dialogue: 99,0:07:53.27,0:07:55.60,main,child 1; boy,0,0,0,,Azize Hanım, harikasınız!
+Dialogue: 99,0:07:55.60,0:07:57.55,main,Lawrence,0,0,0,,Oh, işe yaradı.
+Dialogue: 99,0:07:58.82,0:08:00.36,main,Lawrence,0,0,0,,Oh, Azize Hanım,
+Dialogue: 99,0:08:00.36,0:08:02.66,main,Lawrence,0,0,0,,oraya\Nbiraz uğramak istiyorum.
+Dialogue: 99,0:08:02.66,0:08:04.35,main,Cecilia,0,0,0,,Bir şey alacak mısınız?
+Dialogue: 99,0:08:04.35,0:08:05.08,main,Lawrence,0,0,0,,Hayır.
+Dialogue: 99,0:08:05.08,0:08:07.74,main,Lawrence,0,0,0,,Madem buradayız, dükkan\Nsahibine bir merhaba diyeyim dedim.
+Dialogue: 99,0:08:07.74,0:08:09.84,main,Lawrence,0,0,0,,Burada biraz vakit\Ngeçirsem sorun olur mu?
+Dialogue: 99,0:08:09.84,0:08:12.39,main,Cecilia,0,0,0,,Evet, sorun yok.
+Dialogue: 99,0:08:13.47,0:08:15.24,main,Rebecca,0,0,0,,Bakış...
+Dialogue: 99,0:08:17.98,0:08:20.24,main,Rebecca,0,0,0,,Sizi korkuttuğum için çok özür dilerim!
+Dialogue: 99,0:08:20.24,0:08:21.18,main,Lawrence,0,0,0,,Merhaba.
+Dialogue: 99,0:08:21.18,0:08:24.00,main,Rebecca; background,0,0,0,,Papaz, en son uğradığınızdan\Nbu yana uzun zaman geçti.
+Dialogue: 99,0:08:23.14,0:08:25.28,top,Cecilia; internal,0,0,0,,{\i1}Bir giyim mağazası mı?
+Dialogue: 99,0:08:24.01,0:08:25.68,main,Lawrence; background,0,0,0,,Daha sık uğrayamadığım için üzgünüm.
+Dialogue: 99,0:08:25.96,0:08:28.65,main,Rebecca,0,0,0,,Azize Hanım, isterseniz\Netrafı bir gezebilirsiniz!
+Dialogue: 99,0:08:30.82,0:08:34.69,main,Cecilia,0,0,0,,Öyleyse, sözünüze güvenip\Nkendimi şımartacağım.
+Dialogue: 99,0:08:34.69,0:08:38.70,main,Lawrence; internal,0,0,0,,{\i1}Gerçekten de böyle bir\Noraya bir buraya gitmeye alışık.
+Dialogue: 99,0:08:39.12,0:08:40.90,top,Lawrence; background,0,0,0,,Eric nasıl?
+Dialogue: 99,0:08:39.96,0:08:43.20,main,Cecilia; internal,0,0,0,,{\i1}Burada her türlü şey var.
+Dialogue: 99,0:08:40.90,0:08:42.40,top,Rebecca; background,0,0,0,,O harika!
+Dialogue: 99,0:08:42.40,0:08:43.84,top,Lawrence; background,0,0,0,,Bunu duymak ne güzel.
+Dialogue: 99,0:08:48.60,0:08:51.54,main,Cecilia,0,0,0,,Bu... Bu inanılmaz\Nderecede güzel!
+Dialogue: 99,0:08:51.54,0:08:54.08,main,Lawrence; internal,0,0,0,,{\i1}Ne kadar nadir bir durum! Birinin\Nönünde gerçek yüzünü gösterdi!
+Dialogue: 99,0:08:54.08,0:08:56.04,main,Rebecca,0,0,0,,İnanılmaz, değil mi?
+Dialogue: 99,0:08:56.04,0:08:59.96,main,Rebecca,0,0,0,,Buraya gelen tüm kızlar\Nbundan büyük sevinç duyuyor.
+Dialogue: 99,0:08:59.96,0:09:03.87,main,Rebecca,0,0,0,,Ne de olsa gelinlik, pek sık\Ngörebileceğin bir şey değil!
+Dialogue: 99,0:09:03.87,0:09:05.42,main,Cecilia,0,0,0,,Düğün mü?
+Dialogue: 99,0:09:05.42,0:09:06.31,main,Rebecca,0,0,0,,Ah, doğru ya.
+Dialogue: 99,0:09:06.31,0:09:10.10,main,Rebecca,0,0,0,,Papazın kilisesinde hiç\Ndüğün yapılmaz, değil mi?
+Dialogue: 99,0:09:10.10,0:09:12.10,main,Lawrence,0,0,0,,Böyle bir fırsat neredeyse hiç çıkmaz.
+Dialogue: 99,0:09:12.11,0:09:17.06,main,Rebecca,0,0,0,,Uzaklarda yaşayan iyi bir arkadaşımın\Nkızı yakında evlenecek,
+Dialogue: 99,0:09:17.06,0:09:19.72,main,Rebecca,0,0,0,,o yüzden arkadaşım benden\Ngelinliği dikmemi istedi.
+Dialogue: 99,0:09:19.72,0:09:24.74,main,Rebecca,0,0,0,,Planladığımdan biraz erken bitirdim, o\Nyüzden bir süreliğine burada sergiliyorum.
+Dialogue: 99,0:09:24.74,0:09:27.00,main,Cecilia,0,0,0,,Anlıyorum.
+Dialogue: 99,0:09:33.61,0:09:35.98,main,Cecilia,0,0,0,,Böyle bir şeyi giyebilmek...
+Dialogue: 99,0:09:36.80,0:09:39.61,main,Cecilia,0,0,0,,çok mutlu olmalı.
+Dialogue: 99,0:09:40.13,0:09:42.84,main,Rebecca,0,0,0,,Ah, o kadar tatlı ki.
+Dialogue: 99,0:09:42.84,0:09:44.93,main,Rebecca,0,0,0,,Gerçekten bir kızım olsun istiyordum.
+Dialogue: 99,0:09:44.93,0:09:46.89,main,Lawrence,0,0,0,,Neden bana bakıyorsun?
+Dialogue: 99,0:09:46.89,0:09:49.62,main,Cecilia,0,0,0,,Kızın yok mu?
+Dialogue: 99,0:09:49.62,0:09:52.15,main,Rebecca,0,0,0,,Sadece oğullarım var.
+Dialogue: 99,0:09:52.15,0:09:56.52,main,Rebecca,0,0,0,,İşte bu yüzden senin gibi sevimli\Nkızları yalnız bırakamıyorum, Azize Hanım.
+Dialogue: 99,0:09:56.52,0:09:58.93,main,Cecilia,0,0,0,,H-Hayır, ben gerçekten\Nhiç de öyle değilim...
+Dialogue: 99,0:09:58.93,0:10:00.69,main,Rebecca,0,0,0,,Neden bahsediyorsun?
+Dialogue: 99,0:10:00.69,0:10:03.99,main,Rebecca,0,0,0,,Bu köydeki herkes senin\Nhakkında öyle diyor, biliyor musun?
+Dialogue: 99,0:10:03.99,0:10:06.50,main,Cecilia,0,0,0,,B-Bununla ilgili hiçbir şey bilmiyorum!
+Dialogue: 99,0:10:07.92,0:10:10.31,main,Rebecca,0,0,0,,Gerçekten bir kızım olsun istiyordum.
+Dialogue: 99,0:10:10.31,0:10:13.00,main,Lawrence,0,0,0,,Peki, neden bana bakıyorsun?
+Dialogue: 99,0:10:13.00,0:10:15.00,main,Rebecca,0,0,0,,Sanırım bugünlük bu kadar yeter.
+Dialogue: 99,0:10:15.00,0:10:17.00,main,Rebecca,0,0,0,,Azize Hanım, al şunu.
+Dialogue: 99,0:10:17.00,0:10:18.19,main,Cecilia,0,0,0,,Ne?
+Dialogue: 99,0:10:18.19,0:10:21.32,main,Rebecca,0,0,0,,Buraya kadar geldiğine\Ngöre, yanına bir giysi al.
+Dialogue: 99,0:10:21.32,0:10:23.83,main,Cecilia,0,0,0,,Ah, yapamam.\NSadece düşüncen bile yeter.
+Dialogue: 99,0:10:23.83,0:10:25.47,main,Rebecca,0,0,0,,Neden bahsediyorsun?
+Dialogue: 99,0:10:25.47,0:10:28.62,main,Rebecca,0,0,0,,Azize Hanım, bize her\Nzaman yardım ediyorsun.
+Dialogue: 99,0:10:28.62,0:10:30.90,main,Rebecca,0,0,0,,Lütfen sen de bizden bir şeyler kabul et.
+Dialogue: 99,0:10:32.08,0:10:33.40,main,Cecilia,0,0,0,,Damla...
+Dialogue: 99,0:10:33.40,0:10:37.37,main,Rebecca,0,0,0,,Aman tanrım. Bunun sizi bu kadar\Nmutlu edeceğini hiç düşünmemiştim.
+Dialogue: 99,0:10:37.37,0:10:39.65,main,Rebecca,0,0,0,,Ama,\Nböyle bir giysiden ziyade,
+Dialogue: 99,0:10:40.24,0:10:44.04,main,Rebecca,0,0,0,,sizin için ne zaman isterseniz\Nbir gelinlik dikerim, tamam mı?
+Dialogue: 99,0:10:45.20,0:10:48.05,main,Cecilia,0,0,0,,H-Hadi gidelim, Lawren!
+Dialogue: 99,0:10:48.05,0:10:50.12,main,Lawrence,0,0,0,,Lütfen öyle dışarıya fırlamayın!
+Dialogue: 99,0:10:50.12,0:10:51.39,main,Lawrence,0,0,0,,İzninizle.
+Dialogue: 99,0:10:53.84,0:10:56.13,main,Lawrence,0,0,0,,Azize Hanım, lütfen bekleyin!
+Dialogue: 99,0:10:56.13,0:10:58.34,main,Lawrence,0,0,0,,Bir yeriniz mi ağrıyor?
+Dialogue: 99,0:10:58.34,0:11:01.24,main,Cecilia,0,0,0,,H-Hayır, iyiyim.
+Dialogue: 99,0:11:05.35,0:11:09.10,main,Cecilia,0,0,0,,Oh, bak Lawren! Bir kedi!
+Dialogue: 99,0:11:16.28,0:11:20.69,main,Lawrence,0,0,0,,Bir hayvana yaklaşmak her zaman\Nonların benden kaçmasına neden oluyor.
+Dialogue: 99,0:11:20.69,0:11:23.96,main,Lawrence,0,0,0,,Keşke bir kez olsun birine dokunabilsem.
+Dialogue: 99,0:11:24.60,0:11:28.72,main,Cecilia; internal,0,0,0,,{\i1}Umarım bir gün dileği gerçekleşir.
+Dialogue: 99,0:11:31.39,0:11:33.29,main,Lawrence,0,0,0,,Azize Hanım, önce siz girin ve—
+Dialogue: 99,0:11:33.29,0:11:34.71,main,Cecilia,0,0,0,,Lütfen, bekleyin!
+Dialogue: 99,0:11:35.95,0:11:37.89,main,Lawrence,0,0,0,,Azize Hanım, ne zaman geri dönsem,
+Dialogue: 99,0:11:37.89,0:11:40.21,main,Lawrence,0,0,0,,her zaman benim için\Nbunu yapıyorsun, değil mi?
+Dialogue: 99,0:11:40.21,0:11:41.38,main,Lawrence,0,0,0,,Ne yapıyorsun öyle?
+Dialogue: 99,0:11:41.94,0:11:44.12,main,Cecilia,0,0,0,,Üzerinde sadece biraz toz var.
+Dialogue: 99,0:11:44.12,0:11:46.14,main,Lily,0,0,0,,Papaz!
+Dialogue: 99,0:11:47.57,0:11:49.56,main,Lily,0,0,0,,Papaz için çiçekler!
+Dialogue: 99,0:11:49.56,0:11:52.32,main,Lawrence,0,0,0,,Ah, çok teşekkür ederim!
+Dialogue: 99,0:11:54.28,0:11:55.48,main,Lily's mom,0,0,0,,Çok özür dilerim.
+Dialogue: 99,0:11:55.48,0:11:58.64,main,Lily's mom,0,0,0,,Lily, bunları size vermek\Niçin gelmekte ısrar etti.
+Dialogue: 99,0:11:58.64,0:12:00.19,main,Lawrence,0,0,0,,Önemli değil. Bu beni çok mutlu etti.
+Dialogue: 99,0:12:00.19,0:12:02.99,main,Lawrence,0,0,0,,Ah, ödünç aldığım sepeti geri vereyim.
+Dialogue: 99,0:12:02.99,0:12:04.11,main,Lawrence,0,0,0,,Lütfen, içeri gelin.
+Dialogue: 99,0:12:04.11,0:12:05.86,main,Cecilia,0,0,0,,Küçük Lily'ye ben bakarım.
+Dialogue: 99,0:12:05.86,0:12:07.96,main,Lily's mom,0,0,0,,Bakacak mısın? Teşekkür ederim.
+Dialogue: 99,0:12:09.49,0:12:10.86,main,Cecilia,0,0,0,,Ne oldu?
+Dialogue: 99,0:12:10.86,0:12:17.27,main,Lily,0,0,0,,Şey, bilirsin, büyüdüğümde,\Npapazla evleneceğim!
+Dialogue: 99,0:12:18.56,0:12:19.64,main,Cecilia,0,0,0,,Hayır...
+Dialogue: 99,0:12:19.64,0:12:21.32,main,Cecilia,0,0,0,,Hayır, bunu yapmamalısın.
+Dialogue: 99,0:12:21.32,0:12:25.64,main,Cecilia,0,0,0,,Davranışları gerçekten çok\Niyi, ama işleri çok abartıyor!
+Dialogue: 99,0:12:25.64,0:12:28.77,main,Cecilia,0,0,0,,Aşırı katı, titiz,\Ntemizliğe takıntılı,
+Dialogue: 99,0:12:28.77,0:12:31.39,main,Cecilia,0,0,0,,ve kızdığında gerçekten\Nçok korkutucu oluyor!
+Dialogue: 99,0:12:31.39,0:12:34.14,main,Lawrence,0,0,0,,Onun kafasına ne tür fikirler sokuyorsun?
+Dialogue: 99,0:12:34.83,0:12:37.15,main,Lawrence,0,0,0,,Sen azizsin.
+Dialogue: 99,0:12:37.15,0:12:40.04,main,Lawrence,0,0,0,,Başkasının kusurları hakkında\Nneden bu kadar açıkça konuşuyorsun?
+Dialogue: 99,0:12:40.04,0:12:42.43,main,Lawrence,0,0,0,,Üstelik masum bir çocuğa?
+Dialogue: 99,0:12:42.43,0:12:44.15,main,Cecilia,0,0,0,,Özür dilerim.
+Dialogue: 99,0:12:45.17,0:12:49.66,main,Lawrence,0,0,0,,Ama Tanrı'nın bir elçisi\Nolarak, aziz yalan söyleyemez.
+Dialogue: 99,0:12:49.66,0:12:53.24,main,Lawrence,0,0,0,,Eğer memnun değilsen,\Nbana söylemen yeterdi.
+Dialogue: 99,0:12:55.96,0:12:58.54,main,Cecilia,0,0,0,,L-Lütfen, bekle!
+Dialogue: 99,0:12:58.54,0:12:59.73,main,Lawrence,0,0,0,,Ne yapıyorsun—
+Dialogue: 99,0:12:59.73,0:13:03.66,main,Cecilia,0,0,0,,Doğru, Tanrı'ya yemin ederim ki\Ntek bir yalan bile söylemedim,
+Dialogue: 99,0:13:03.66,0:13:06.26,main,Cecilia,0,0,0,,a-ama bahsettiğim her şeye kıyasla...
+Dialogue: 99,0:13:06.26,0:13:10.18,main,Cecilia,0,0,0,,sende sevdiğim çok\Ndaha fazla şey var, Lawren!
+Dialogue: 99,0:13:12.89,0:13:15.88,main,Lawrence,0,0,0,,Peki, bugün yine çörek\Nve siyah çay ister misin?
+Dialogue: 99,0:13:15.88,0:13:17.66,main,Cecilia,0,0,0,,Benim için pişirecek misin?
+Dialogue: 99,0:13:17.66,0:13:20.47,main,Lawrence,0,0,0,,Pişireceğim, lütfen beni bırak.
+Dialogue: 99,0:13:30.85,0:13:34.93,main,Lawrence; internal,0,0,0,,{\i1}Azize Hanım, köyümüzde\Nbirdenbire, hiçbir yerden çıkageldi.
+Dialogue: 99,0:13:36.54,0:13:39.38,main,Lawrence; internal,0,0,0,,{\i1}Yol kenarında tek başına dolaşıyordu,
+Dialogue: 99,0:13:39.38,0:13:42.70,main,Lawrence; internal,0,0,0,,{\i1}ben de onu küçük kilisemize davet ettim.
+Dialogue: 99,0:13:46.33,0:13:51.30,main,Lawrence; internal,0,0,0,,{\i1}Bir azize olarak, eminim ki\Nonun için daha uygun yerler vardır,
+Dialogue: 99,0:13:51.30,0:13:53.13,main,Lawrence; internal,0,0,0,,{\i1}ama sonunda buraya yerleşti.
+Dialogue: 99,0:13:53.64,0:13:56.27,main,Lawrence; internal,0,0,0,,{\i1}Ancak, o\Nkarmaşık durumlardan daha çok...
+Dialogue: 99,0:13:59.95,0:14:04.15,main,Lawrence; internal,0,0,0,,{\i1}Asıl dikkat etmem gerekenin,\Nonun kişiliği olduğunu fark ettim.
+Dialogue: 99,0:14:04.69,0:14:06.63,main,Lawrence,0,0,0,,Lütfen dikkatli olun.
+Dialogue: 99,0:14:06.63,0:14:08.37,main,Cecilia,0,0,0,,Özür dilerim.
+Dialogue: 0,0:14:09.95,0:14:12.95,sign_note,text,0,0,0,,{\pos(360.942,250.239)\fad(2000,0)\blur0.5\bord0}Lawrence'ın çörekleri muhteşem
+Dialogue: 0,0:14:13.95,0:14:16.96,sign_note,text,0,0,0,,{\pos(1324.176,222.216)\fad(2000,0)\blur0.5\bord0}Biraz daha\Nçeşitlilik katmam lazım...
+Dialogue: 99,0:14:17.53,0:14:19.46,main,Lawrence,0,0,0,,Azize Hanım?
+Dialogue: 99,0:14:19.46,0:14:21.20,main,Lawrence,0,0,0,,Sabah oldu!
+Dialogue: 99,0:14:21.20,0:14:24.83,main,Lawrence,0,0,0,,Bir an önce uyanmazsanız,\Nkahvaltınız soğuyacak!
+Dialogue: 99,0:14:25.14,0:14:28.90,main,Cecilia,0,0,0,,Bilincim hâlâ bulanık, o yüzden\Nlütfen içeri gel ve beni uyandır.
+Dialogue: 99,0:14:28.90,0:14:31.72,main,Lawrence,0,0,0,,Ama sen net bir şekilde cevap\Nveriyorsun gibi görünüyor, değil mi?
+Dialogue: 99,0:14:31.72,0:14:34.46,main,Cecilia,0,0,0,,Bu mümkün değil. Uyanamıyorum.
+Dialogue: 99,0:14:34.46,0:14:36.78,main,Cecilia,0,0,0,,Lütfen gel de beni uyandır!
+Dialogue: 99,0:14:36.78,0:14:38.50,main,Lawrence,0,0,0,,Tamam, peki.
+Dialogue: 99,0:14:38.50,0:14:40.35,main,Lawrence,0,0,0,,O zaman içeri geliyorum!
+Dialogue: 99,0:14:44.06,0:14:45.59,main,Cecilia,0,0,0,,Bak!
+Dialogue: 99,0:14:45.59,0:14:47.84,main,Cecilia,0,0,0,,Bunlar\Ndün aldığım pijamalar!
+Dialogue: 99,0:14:47.84,0:14:48.98,main,Lawrence,0,0,0,,Gerçekten mi?
+Dialogue: 99,0:14:50.15,0:14:51.48,main,Cecilia,0,0,0,,Ne dersin?
+Dialogue: 99,0:14:51.48,0:14:52.99,main,Lawrence,0,0,0,,Ne kadar sevimli...
+Dialogue: 99,0:14:53.74,0:14:54.96,main,Lawrence,0,0,0,,O pijamalar ne kadar da güzel.
+Dialogue: 99,0:14:55.24,0:14:57.45,main,Lawrence,0,0,0,,Çok iyi dikilmişler.
+Dialogue: 99,0:14:57.45,0:14:58.65,main,Lawrence,0,0,0,,Azize Hanım?
+Dialogue: 99,0:14:59.16,0:15:02.26,main,Cecilia,0,0,0,,Üstümü değiştireceğim,\Nlütfen bir dakika bekler misin?
+Dialogue: 99,0:15:02.26,0:15:03.60,main,Lawrence,0,0,0,,Evet, tamam.
+Dialogue: 99,0:15:03.60,0:15:05.49,main,Lawrence,0,0,0,,Dışarıda beklemeli miyim?
+Dialogue: 99,0:15:05.49,0:15:06.30,main,Cecilia,0,0,0,,Ne?
+Dialogue: 99,0:15:06.96,0:15:11.21,main,Cecilia; internal,0,0,0,,{\i1}Lawren, ben üstümü değiştirirken\Nhemen dışarıda mı bekleyecek?
+Dialogue: 99,0:15:11.45,0:15:14.62,main,Cecilia,0,0,0,,Sanırım yine de tek başıma\Ngideceğim, o yüzden buna gerek yok.
+Dialogue: 99,0:15:14.62,0:15:16.08,main,Lawrence,0,0,0,,Ne oldu?
+Dialogue: 99,0:15:18.73,0:15:21.12,main,Cecilia,0,0,0,,Bugün elimizde çok sebze var.
+Dialogue: 99,0:15:21.12,0:15:24.45,main,Lawrence,0,0,0,,Yakında tüketmezsek\Nbozulacak gibi görünüyordu.
+Dialogue: 99,0:15:26.22,0:15:27.35,main,Lawrence,0,0,0,,Şimdi düşününce,
+Dialogue: 99,0:15:27.35,0:15:32.11,main,Lawrence,0,0,0,,Azize Hanım, hiç bir zaman\Nsevmediğiniz bir yemekten bahsetmediniz.
+Dialogue: 99,0:15:32.11,0:15:33.51,main,Cecilia,0,0,0,,Tabii ki hayır!
+Dialogue: 99,0:15:33.51,0:15:37.74,main,Cecilia,0,0,0,,Bir aziz, tüm yiyeceklere\Nşükran duymalıdır!
+Dialogue: 99,0:15:37.98,0:15:42.04,main,Lawrence,0,0,0,,Ama sizden, yeşil biber ve havuç\Nsevmediğinizi gösteren bir aura yayılıyor.
+Dialogue: 99,0:15:42.04,0:15:43.96,main,Cecilia,0,0,0,,Bu sadece senin önyargın.
+Dialogue: 99,0:15:43.96,0:15:45.88,main,Cecilia,0,0,0,,Benim öyle bir hoşnutsuzluğum yok.
+Dialogue: 99,0:15:45.88,0:15:47.47,main,Cecilia,0,0,0,,Madem konuyu açtın, Lawren,
+Dialogue: 99,0:15:47.47,0:15:49.60,main,Cecilia,0,0,0,,sen de öyle bir hoşnutsuzluğa\Nsahipmiş gibi görünmüyorsun.
+Dialogue: 99,0:15:49.60,0:15:50.40,main,Lawrence,0,0,0,,Ha?
+Dialogue: 99,0:15:53.88,0:15:56.06,main,Lawrence,0,0,0,,Tabii ki yok!
+Dialogue: 99,0:15:59.20,0:16:04.02,main,Cecilia,0,0,0,,Aziz,\Nilahi vahiy alan kişidir.
+Dialogue: 99,0:16:04.02,0:16:06.19,main,Cecilia,0,0,0,,Bu nedenle yalan söylememelidir.
+Dialogue: 99,0:16:06.19,0:16:09.43,main,Cecilia,0,0,0,,Yine de, ben yalan söylemesem de,
+Dialogue: 99,0:16:09.43,0:16:12.20,main,Cecilia,0,0,0,,yanımda olan senin yalan söylemen...
+Dialogue: 99,0:16:12.20,0:16:15.20,main,Cecilia,0,0,0,,Biraz haksızlık gibi geliyor.
+Dialogue: 99,0:16:15.59,0:16:17.85,main,Lawrence,0,0,0,,Hata bende.
+Dialogue: 99,0:16:19.08,0:16:22.72,main,Lawrence,0,0,0,,Gerçek şu ki, kabuklu deniz\Nürünlerini yiyemiyorum.
+Dialogue: 99,0:16:22.72,0:16:23.83,main,Cecilia,0,0,0,,Kabuklu deniz ürünleri mi?
+Dialogue: 99,0:16:23.83,0:16:25.04,main,Lawrence,0,0,0,,Küçükken,
+Dialogue: 99,0:16:25.04,0:16:28.25,main,Lawrence,0,0,0,,bir adaya tatile gitmiştik, ve orada\Nilk kez kabuklu deniz ürünleri yedim.
+Dialogue: 99,0:16:28.25,0:16:29.88,main,Lawrence,0,0,0,,Ve sonra...
+Dialogue: 99,0:16:30.96,0:16:32.63,main,young Lawrence,0,0,0,,Çok lezzetli!
+Dialogue: 99,0:16:32.63,0:16:34.52,main,young Lawrence,0,0,0,,Bunu sonsuza kadar yiyebilirim!
+Dialogue: 99,0:16:35.58,0:16:37.55,main,Grandpa,0,0,0,,Öyle mi?
+Dialogue: 99,0:16:37.92,0:16:40.13,main,Lawrence,0,0,0,,Fazla yedim ve midem bulandı.
+Dialogue: 99,0:16:40.13,0:16:42.13,main,Lawrence,0,0,0,,O zamandan beri\Nonları hiç yiyemedim.
+Dialogue: 99,0:16:42.13,0:16:44.13,main,Cecilia; internal,0,0,0,,Bu çok sevimli!
+Dialogue: 99,0:16:44.13,0:16:47.72,main,Lawrence,0,0,0,,Arkasında aptalca bir hikâye var, ve utancımdan kaçıp saklanmak istiyorun.
+Dialogue: 99,0:16:47.72,0:16:50.06,main,Lawrence,0,0,0,,Lütfen, bunu sır olarak saklar mısın?
+Dialogue: 99,0:16:50.73,0:16:53.93,main,Cecilia; internal,0,0,0,,{\i1}Sadece benim bildiğim bir Lawren sırrı!
+Dialogue: 99,0:16:54.32,0:16:55.67,main,Cecilia,0,0,0,,Bunu canım pahasına savunurum!
+Dialogue: 99,0:16:55.67,0:16:57.75,main,Lawrence,0,0,0,,O kadar abartmana gerek yok!
+Dialogue: 99,0:16:57.75,0:17:01.18,main,Lawrence,0,0,0,,Şimdi, yemeğimi bitirir bitirmez,\Nalışverişe çıkmam gerekiyor.
+Dialogue: 99,0:17:01.69,0:17:03.31,main,Cecilia,0,0,0,,Ben de geliyorum!
+Dialogue: 99,0:17:08.10,0:17:11.24,main,Lawrence,0,0,0,,Azize Hanım, dikkatinin\Ndağılması tehlikeli.
+Dialogue: 99,0:17:12.20,0:17:13.80,main,Lawrence,0,0,0,,Az önce ne dedim ben!
+Dialogue: 99,0:17:13.80,0:17:15.38,main,Lawrence,0,0,0,,İyi misin?
+Dialogue: 99,0:17:15.38,0:17:17.27,main,Lawrence,0,0,0,,Ayağını incitmedin, değil mi?
+Dialogue: 99,0:17:18.01,0:17:19.23,main,Lawrence,0,0,0,,Azize Hanım?
+Dialogue: 99,0:17:19.23,0:17:21.39,main,Cecilia,0,0,0,,İ-İyiyim!
+Dialogue: 99,0:17:22.12,0:17:23.29,main,Lawrence,0,0,0,,B-Bekle—
+Dialogue: 99,0:17:23.29,0:17:24.39,main,Cecilia,0,0,0,,Çok özür dilerim, Lawren!
+Dialogue: 99,0:17:24.99,0:17:26.59,main,Cecilia,0,0,0,,Yaralanmadın, değil mi?
+Dialogue: 99,0:17:26.59,0:17:28.82,main,Lawrence,0,0,0,,Peki ya sen, Azize Hanım,\Niyi misin?
+Dialogue: 99,0:17:28.82,0:17:31.61,main,Cecilia,0,0,0,,Şu anda, senin yaralanmandan\Ndaha çok endişeleniyorum, Lawren!
+Dialogue: 99,0:17:31.61,0:17:33.40,main,Lawrence,0,0,0,,Hayır, Azize Hanım, sen çok daha önemlisin.
+Dialogue: 99,0:17:33.40,0:17:35.37,main,Cecilia,0,0,0,,Hayır, sen daha önemlisin, Lawren.
+Dialogue: 99,0:17:35.37,0:17:36.64,main,Lawrence,0,0,0,,Sen daha önemlisin, Azize Hanım.
+Dialogue: 99,0:17:36.64,0:17:38.77,main,Cecilia,0,0,0,,Hayır, sen daha önemlisin, Lawren!
+Dialogue: 99,0:17:36.64,0:17:39.92,top,man; lady,0,0,0,,Bu ikisi çok iyi anlaşıyor, değil mi?
+Dialogue: 99,0:17:54.85,0:17:58.69,main,Lawrence,0,0,0,,Bir bakalım. Almamız gereken\Ntek şey...
+Dialogue: 99,0:17:58.69,0:18:00.84,main,Lawrence,0,0,0,,tatlı malzemeleri,
+Dialogue: 99,0:18:00.84,0:18:03.68,main,Lawrence,0,0,0,,ama daha önce senin\Niçin biraz tatlı almıştık,
+Dialogue: 99,0:18:03.68,0:18:06.04,main,Lawrence,0,0,0,,yani belki de bu sefer\No kadar çok almamıza gerek yoktur.
+Dialogue: 99,0:18:06.62,0:18:09.28,main,Lawrence,0,0,0,,Zaten hepsini yiyemezsin,\Ndeğil mi, Azize Hanım?
+Dialogue: 99,0:18:09.28,0:18:11.92,main,Cecilia,0,0,0,,Ş-Şekerlemeler için ayrı\Nbir midem var diyebiliriz!
+Dialogue: 99,0:18:11.92,0:18:13.11,main,Lawrence,0,0,0,,Ama...
+Dialogue: 99,0:18:13.11,0:18:16.65,main,Cecilia,0,0,0,,Lütfen hayatımdaki eğlenceyi benden çalma!
+Dialogue: 99,0:18:16.65,0:18:18.95,main,Lawrence,0,0,0,,Buradaki görevin zorluk\Nderecesini birdenbire artırdın.
+Dialogue: 0,0:18:19.07,0:18:20.32,signs_brown,text,0,0,0,,{\bord0\blur0.5\pos(1376.97,933.594)\c&H3A3044&}Malzemeleri aldım.
+Dialogue: 99,0:18:20.66,0:18:24.01,main,Lawrence,0,0,0,,Hayatta bekleyebileceğimiz\Nbaşka şeyler de var, değil mi?
+Dialogue: 99,0:18:24.01,0:18:26.08,main,Cecilia,0,0,0,,Elbette var!
+Dialogue: 99,0:18:26.08,0:18:26.83,main,Lawrence,0,0,0,,Değil mi?
+Dialogue: 99,0:18:27.05,0:18:28.33,main,Lawrence,0,0,0,,O zaman, neden...
+Dialogue: 99,0:18:29.96,0:18:33.96,main,Cecilia,0,0,0,,Mesela, Lawren'in bana yaptığı yemekler...
+Dialogue: 99,0:18:34.68,0:18:37.88,main,Cecilia,0,0,0,,ya da Lawren'in yetiştirdiği\Nçiçeklere bakmak...
+Dialogue: 99,0:18:38.44,0:18:41.97,main,Cecilia,0,0,0,,ya da Lawren'in sabahları\Ngelip beni uyandırması...
+Dialogue: 99,0:18:42.44,0:18:45.12,main,Cecilia,0,0,0,,Bunların hiçbirini kaybedemem!
+Dialogue: 99,0:18:45.47,0:18:47.25,main,Lawrence,0,0,0,,Azize Hanım...
+Dialogue: 99,0:18:47.72,0:18:50.65,main,Lawrence,0,0,0,,Sadece\N"ev işleri" deseniz olmaz mıydı?
+Dialogue: 99,0:18:59.66,0:19:01.73,main,Lawrence,0,0,0,,Bu yağmur gerçekten de\Nbirdenbire yağmaya başladı.
+Dialogue: 99,0:19:01.73,0:19:03.57,main,Lawrence,0,0,0,,Azize Hanım, iyi misiniz?
+Dialogue: 99,0:19:03.57,0:19:05.36,main,Cecilia,0,0,0,,Çok şiddetli yağıyor.
+Dialogue: 99,0:19:05.36,0:19:07.29,main,Lawrence,0,0,0,,Fırfırların zararlı yan etkileri var!
+Dialogue: 99,0:19:09.04,0:19:11.42,main,Cecilia,0,0,0,,Ama Lawren, sen iyi misin?
+Dialogue: 99,0:19:11.42,0:19:15.42,main,Lawrence,0,0,0,,Durumun benden çok daha kötü,\NAzize Hanım.
+Dialogue: 99,0:19:15.42,0:19:17.16,main,Lawrence,0,0,0,,Bu hiç iyi değil.
+Dialogue: 99,0:19:17.16,0:19:20.23,main,Lawrence,0,0,0,,Yağmur dinene kadar beklersek, Azize\NHanım soğuk algınlığına yakalanabilir.
+Dialogue: 99,0:19:20.23,0:19:22.04,main,woman,0,0,0,,Papaz! Azize Hanım!
+Dialogue: 99,0:19:22.04,0:19:24.17,main,woman,0,0,0,,Şemsiyeniz yok mu?
+Dialogue: 99,0:19:24.17,0:19:25.06,main,Lawrence,0,0,0,,Yok.
+Dialogue: 99,0:19:25.06,0:19:27.18,main,Lawrence,0,0,0,,Yağmur yağacağını düşünmemiştim.
+Dialogue: 99,0:19:27.18,0:19:30.63,main,woman,0,0,0,,Soğuk alacaksınız! Lütfen\Nbenim şemsiyemi kullanın!
+Dialogue: 99,0:19:30.63,0:19:32.35,main,Cecilia,0,0,0,,Ne? Ama...
+Dialogue: 99,0:19:32.35,0:19:33.72,main,woman,0,0,0,,Sorun değil.
+Dialogue: 99,0:19:33.72,0:19:35.72,main,woman,0,0,0,,Onun şemsiyesini benimle\Npaylaşmasını söylerim.
+Dialogue: 99,0:19:35.72,0:19:36.68,main,woman,0,0,0,,Hoşça kalın!
+Dialogue: 99,0:19:39.73,0:19:41.28,main,Lawrence,0,0,0,,Onlara çok minnettarım.
+Dialogue: 99,0:19:41.28,0:19:43.70,main,Lawrence,0,0,0,,Şimdi, Azize Hanım,\Nşemsiyeyi siz kullanmalısınız.
+Dialogue: 99,0:19:43.70,0:19:44.74,main,Cecilia,0,0,0,,Ne?
+Dialogue: 99,0:19:44.74,0:19:46.60,main,Lawrence,0,0,0,,Benim için endişelenmeyin. Ben iyiyim.
+Dialogue: 99,0:19:46.60,0:19:47.50,main,Lawrence,0,0,0,,Lütfen, sen kullan.
+Dialogue: 99,0:19:50.75,0:19:54.99,main,Cecilia,0,0,0,,Lawren, üşüteceksin, o yüzden\Nşemsiyeyi birlikte kullanalım!
+Dialogue: 99,0:19:54.99,0:19:56.63,main,Lawrence,0,0,0,,Çok kararlısın!
+Dialogue: 99,0:19:56.63,0:19:58.76,main,Lawrence,0,0,0,,Ama boylarımız çok farklı.
+Dialogue: 99,0:19:58.76,0:20:01.39,main,Lawrence,0,0,0,,Islanacaksın, Azize Hanım.
+Dialogue: 99,0:20:01.39,0:20:03.88,main,Cecilia,0,0,0,,Bunu şu şekilde ele alabilir miyiz:
+Dialogue: 99,0:20:03.88,0:20:06.03,main,Cecilia,0,0,0,,"Bir azize sırılsıklam\Nolsa bile güzel görünür"?
+Dialogue: 99,0:20:06.03,0:20:07.68,main,Lawrence,0,0,0,,Sırılsıklam olmak ister misin?
+Dialogue: 99,0:20:07.68,0:20:09.39,main,Cecilia,0,0,0,,Başörtümü takarsam,
+Dialogue: 99,0:20:09.39,0:20:12.49,main,Cecilia,0,0,0,,yanlardan gelen yağmuru\Nüzerime gelmesini engelleyebilirim!
+Dialogue: 99,0:20:13.48,0:20:16.61,main,Lawrence,0,0,0,,Madem bu kadar ısrar\Nediyorsun, peki o zaman.
+Dialogue: 99,0:20:16.61,0:20:19.79,main,Lawrence,0,0,0,,Ama ıslanmaya başlarsan, Azize Hanım,
+Dialogue: 99,0:20:19.79,0:20:21.54,main,Lawrence,0,0,0,,o zaman seni zorla\Nbu şemsiyeyi almaya zorlayacağım.
+Dialogue: 99,0:20:21.54,0:20:23.36,main,Cecilia,0,0,0,,T-Tamam!
+Dialogue: 99,0:20:32.65,0:20:35.22,main,Lawrence,0,0,0,,Ah, yağmur durdu.
+Dialogue: 99,0:20:36.36,0:20:37.90,main,Cecilia,0,0,0,,Nasıl...
+Dialogue: 99,0:20:37.90,0:20:41.11,main,Cecilia,0,0,0,,Hava nasıl bu kadar zamansız olabilir?
+Dialogue: 99,0:20:41.48,0:20:43.04,main,Lawrence,0,0,0,,Azize Hanım!
+Dialogue: 99,0:20:43.04,0:20:44.94,main,Lawrence,0,0,0,,İ-İyi misiniz?
+Dialogue: 99,0:20:44.94,0:20:45.88,main,Cecilia,0,0,0,,Evet.
+Dialogue: 99,0:20:45.88,0:20:48.48,main,Cecilia,0,0,0,,Artık ıslansam da pek önemi yok.
+Dialogue: 99,0:20:48.77,0:20:50.21,main,Lawrence,0,0,0,,Hayır! Küstahlığımı bağışlayın lütfen.
+Dialogue: 99,0:20:51.22,0:20:52.84,main,Cecilia,0,0,0,,L-L-L-Lawren?!
+Dialogue: 99,0:20:52.84,0:20:54.16,main,Lawrence,0,0,0,,Özür dilerim.
+Dialogue: 99,0:20:54.16,0:20:56.25,main,Lawrence,0,0,0,,Lütfen biraz daha sabredin.
+Dialogue: 99,0:20:57.24,0:21:00.49,main,Lawrence,0,0,0,,Soğuk algınlığına yakalanmamalısın.\NHemen eve döneceğiz.
+Dialogue: 99,0:21:00.49,0:21:04.26,main,Cecilia,0,0,0,,Ben böyle yavaş yavaş\Ngitmeyi tercih ederim.
+Dialogue: 99,0:21:04.26,0:21:06.72,main,Lawrence,0,0,0,,Az önce dedim ya, soğuk\Nalgınlığına yakalanacaksın!
+Dialogue: 99,0:21:10.64,0:21:12.53,main,Cecilia,0,0,0,,Lawren, sen de banyo yapmalısın.
+Dialogue: 99,0:21:16.22,0:21:19.19,main,Cecilia,0,0,0,,{\i1}Onun\Nböyle uykuya dalması alışılmadık bir durum.
+Dialogue: 99,0:21:19.19,0:21:21.50,main,Cecilia,0,0,0,,{\i1}Lawren, tamamen savunmasız bir anında.
+Dialogue: 99,0:21:32.79,0:21:38.69,main,Cecilia; internal,0,0,0,,{\i1}Bir aziz olarak,\Nbu köyün halkını korumak benim görevim.
+Dialogue: 99,0:21:39.38,0:21:40.86,main,Cecilia; internal,0,0,0,,{\i1}Ama Lawren...
+Dialogue: 99,0:21:41.43,0:21:45.57,main,Cecilia; internal,0,0,0,,{\i1}Kendi bencilliğim yüzünden\Ntamamen senin yanındayım.
+Dialogue: 99,0:21:46.49,0:21:49.97,main,Cecilia; internal,0,0,0,,{\i1}Seni sonsuza kadar koruyacağım.
+Dialogue: 0,0:22:14.94,0:22:17.74,EDJP,,0,0,0,,{\fad(200,200)\be5}Soyokaze no you ni sore wa
+Dialogue: 0,0:22:14.94,0:22:17.74,EDJP,,0,0,0,,{\fad(200,200)\an3}Hafif bir esinti gibi,
+Dialogue: 0,0:22:17.74,0:22:20.66,EDJP,,0,0,0,,{\fad(200,200)\be5}Sukima wo nadete warau
+Dialogue: 0,0:22:17.74,0:22:20.66,EDJP,,0,0,0,,{\fad(200,200)\an3}boşluklardan süzülüp gülümser
+Dialogue: 0,0:22:20.66,0:22:25.45,EDJP,,0,0,0,,{\fad(200,200)\be5}Kawaru gawaru mainichi wo irodotteiku
+Dialogue: 0,0:22:20.66,0:22:25.45,EDJP,,0,0,0,,{\fad(200,200)\an3}Sürekli değişen günlere renk katarak,
+Dialogue: 0,0:22:26.25,0:22:28.87,EDJP,,0,0,0,,{\fad(200,200)\be5}Terasareta you na ki ga shita
+Dialogue: 0,0:22:26.25,0:22:28.87,EDJP,,0,0,0,,{\fad(200,200)\an3}onları canlı hale getirerek
+Dialogue: 0,0:22:29.04,0:22:31.79,EDJP,,0,0,0,,{\fad(200,200)\be5}Doko ni demo aru mainichi wo
+Dialogue: 0,0:22:29.04,0:22:31.79,EDJP,,0,0,0,,{\fad(200,200)\an3}Sanki aydınlatılıyormuşum gibi hissettim
+Dialogue: 0,0:22:31.79,0:22:36.67,EDJP,,0,0,0,,{\fad(200,200)\be5}Kono te ni tewatasareta you ni omoeta
+Dialogue: 0,0:22:31.79,0:22:36.67,EDJP,,0,0,0,,{\fad(200,200)\an3}Sanki her sıradan gün bana verilmiş gibi
+Dialogue: 0,0:22:36.67,0:22:39.66,EDJP,,0,0,0,,{\fad(200,200)\be5}Yawarakaku warau kimi no soba de
+Dialogue: 0,0:22:36.67,0:22:39.66,EDJP,,0,0,0,,{\fad(200,200)\an3}Yumuşak gülümsemenin yanında
+Dialogue: 0,0:22:39.66,0:22:42.39,EDJP,,0,0,0,,{\fad(200,200)\be5}Boku ni dekiru koto sagashiteiru
+Dialogue: 0,0:22:39.66,0:22:42.39,EDJP,,0,0,0,,{\fad(200,200)\an3}Ne yapabileceğimi arıyorum
+Dialogue: 0,0:22:42.39,0:22:45.25,EDJP,,0,0,0,,{\fad(200,200)\be5}Kalbime yerleşen bu sıcaklığı
+Dialogue: 0,0:22:42.39,0:22:45.25,EDJP,,0,0,0,,{\fad(200,200)\an3}Korumak istiyorum,
+Dialogue: 0,0:22:45.25,0:22:49.92,EDJP,,0,0,0,,{\fad(200,200)\be5}Mamotteitainda, tawai mo nai kono hibi wo
+Dialogue: 0,0:22:45.25,0:22:47.22,EDJP,,0,0,0,,{\fad(200,200)\an3}ki kalbime yerleşmiş olan
+Dialogue: 0,0:22:47.22,0:22:52.88,EDJP,,0,0,0,,{\fad(200,200)\an3}Bu önemsiz günleri kucaklamak istiyorum
+Dialogue: 0,0:22:49.92,0:22:52.88,EDJP,,0,0,0,,{\fad(200,200)\be5}Dakishimetai to omou no wa
+Dialogue: 0,0:22:52.88,0:22:55.55,EDJP,,0,0,0,,{\fad(200,200)\be5}Itsumademo kono keshiki wo
+Dialogue: 0,0:22:52.88,0:22:55.55,EDJP,,0,0,0,,{\fad(200,200)\be5\an3}Çünkü her zaman...
+Dialogue: 0,0:22:55.55,0:22:58.44,EDJP,,0,0,0,,{\fad(200,200)\be5}Anata to waratteitai kara
+Dialogue: 0,0:22:55.55,0:22:58.44,EDJP,,0,0,0,,{\fad(200,200)\be5\an3}...bu manzarada seninle gülmek istiyorum
+Dialogue: 0,0:22:58.44,0:23:01.26,EDJP,,0,0,0,,{\fad(200,200)\be5}Inori wa kaze ni nosete
+Dialogue: 0,0:22:58.44,0:23:01.26,EDJP,,0,0,0,,{\fad(200,200)\an3}Dualarımı rüzgâra bırakıyorum,
+Dialogue: 0,0:23:01.26,0:23:04.18,EDJP,,0,0,0,,{\fad(200,200)\be5}Anata no yobu koe no hou e
+Dialogue: 0,0:23:01.26,0:23:04.18,EDJP,,0,0,0,,{\fad(200,200)\an3}senin sesinin geldiği yöne doğru
+Dialogue: 0,0:23:04.18,0:23:07.64,EDJP,,0,0,0,,{\fad(200,200)\be5}Katachi no nai kakegae nai omoi wa
+Dialogue: 0,0:23:04.18,0:23:07.64,EDJP,,0,0,0,,{\fad(200,200)\an3}Bu şekilsiz, yeri doldurulamaz duygular,
+Dialogue: 0,0:23:07.64,0:23:11.12,EDJP,,0,0,0,,{\fad(200,200)\be5}Itsuka kotoba ni natteite
+Dialogue: 0,0:23:07.64,0:23:11.12,EDJP,,0,0,0,,{\fad(200,200)\an3}bir gün kelimelere dönüşecek
+Dialogue: 99,0:23:21.96,0:23:25.69,main,Lawrence,0,0,0,,Azize Hanım tembellik ediyor!
+Dialogue: 99,0:23:21.97,0:23:24.15,top,Cecilia; background,0,0,0,,Bittim...
+Dialogue: 99,0:23:26.64,0:23:28.77,top,Cecilia; background,0,0,0,,Bittimm...
+Dialogue: 99,0:23:26.65,0:23:29.44,main,Lawrence,0,0,0,,Azize Hanım tembellik ediyor!
+Dialogue: 99,0:23:29.84,0:23:32.05,main,Lawrence,0,0,0,,Azize Hanım tembellik ediyor!
+Dialogue: 99,0:23:29.84,0:23:32.05,top,Cecilia; background,0,0,0,,Bittim...
+Dialogue: 99,0:23:36.40,0:23:38.28,main,Cecilia,0,0,0,,Artık dayanamıyorum!
