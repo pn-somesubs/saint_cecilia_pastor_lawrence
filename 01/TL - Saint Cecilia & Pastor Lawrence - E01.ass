@@ -13,17 +13,13 @@ LayoutResY: 1080
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: main,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
 Style: top,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,8,225,225,60,1
-Style: flashbacktop,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,8,60,60,69,1
-Style: flashbackitalicstop,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,8,60,60,69,1
 Style: episode title,Arial,60,&H00EFF5F5,&H000000FF,&H000059A5,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,90,1
-Style: signs_brown,Arial,60,&H000F2352,&H000000FF,&H00F4F8FA,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
-Style: sign_note,Comic Sans MS,51,&H002B3447,&H000000FF,&H00E4EEF1,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
 Style: OPJP,Rosemary,50,&H00FFFFFF,&H00FFFFFF,&H004E4FDE,&H00FFFFFF,0,0,0,0,100,100,0,0,1,4,0,8,0,0,30,1
 Style: EDJP,2R9BOATD,70,&H007D7CF9,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,3,0,1,2.2,0,7,30,30,20,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:10.74,main,,0,0,0,,{\fs50\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} Blue\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
+Dialogue: 0,0:00:00.00,0:00:10.74,main,,0,0,0,,{\fs50\an7\fe162\fad(400,400)\bord2\blur5\shad0\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} Blue\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
 Dialogue: 99,0:00:01.74,0:00:05.23,main,Grandpa,0,0,0,,Azizler insanları korur,
 Dialogue: 99,0:00:05.64,0:00:10.99,main,Grandpa,0,0,0,,ve biz de bizi koruyanları koruruz.
 Dialogue: 99,0:00:10.99,0:00:12.99,main,Grandpa,0,0,0,,Anlıyor musun, Lawrence?
@@ -76,7 +72,7 @@ Dialogue: 0,0:02:52.86,0:02:58.41,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Lan Lan,
 Dialogue: 0,0:02:58.41,0:03:01.29,OPJP,,0,0,0,,{\fad(150,150)\blur1}"Motto shiritai" "chikazukitai"\N"watashi o mite" "kimochi ni kizuite!"
 Dialogue: 0,0:02:58.41,0:03:01.29,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}"Daha fazla bilmek istiyorum", "Yaklaşmak\Nistiyorum", "Bana bak", "Lütfen duygularımı fark et!"
 Dialogue: 0,0:03:01.29,0:03:04.44,OPJP,,0,0,0,,{\fad(150,150)\blur1}Parlayan, Büyüleyici,\NÇiçek açan, Benim ol!
-Dialogue: 0,0:03:01.29,0:03:04.44,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}
+Dialogue: 0,0:03:01.29,0:03:04.44,OPJP,,0,0,0,,
 Dialogue: 0,0:03:06.69,0:03:12.64,OPJP,,0,0,0,,{\fad(150,150)\blur1}Kimi no koto kimi no koto\N"suki!" tte sakebitai nda
 Dialogue: 0,0:03:06.69,0:03:12.64,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Senden hoşlanıyorum. Senden hoşlanıyorum.\N"Seni seviyorum!" diye bağırmak istiyorum.
 Dialogue: 0,0:03:12.64,0:03:18.22,OPJP,,0,0,0,,{\fad(150,150)\blur1}Watashi dake watashi dake furimuite waratte
@@ -91,12 +87,12 @@ Dialogue: 0,0:03:32.36,0:03:35.45,OPJP,,0,0,0,,{\fad(150,150)\blur1}Zutto zutto 
 Dialogue: 0,0:03:32.36,0:03:35.45,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Sonsuza dek yanında olacağım
 Dialogue: 0,0:03:35.45,0:03:38.56,OPJP,,0,0,0,,{\fad(150,150)\blur1}Motto egao misete ne
 Dialogue: 0,0:03:35.45,0:03:38.56,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Lütfen bana daha çok gülümse
-Dialogue: 2,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{=23}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord0\t(23,3694,\bord0)}1. Bölüm
-Dialogue: 2,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{=22}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord0\t(23,3694,\bord0)}Aralarındaki İlişki
-Dialogue: 1,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{=21}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord5\t(23,3694,\bord4.25)\c&HEFF5F5&\1a&HDA&}1. Bölüm
-Dialogue: 1,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{=20}{\clip()\fscx100\t(23,3694,\fscx85,06)\fscy100\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur0\fade(255,0,255,0,800,3710,3710)\bord5\t(23,3694,\bord4.25)\c&HEFF5F5&\1a&HDA&}Aralarındaki İlişki
-Dialogue: 0,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{=19}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\bord6\t(23,3694,\bord5.1)\move(966.46,402.58,962.96,422.58,23,3694)\blur10\fade(255,0,255,0,800,3710,3710)\c&HEFF5F5&\1a&HE9&}1. Bölüm
-Dialogue: 0,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{=18}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\bord6\t(23,3694,\bord5.1)\move(968.62,728.09,964.79,699.47,23,3694)\blur10\fade(255,0,255,0,800,3710,3710)\c&HEFF5F5&\1a&HE9&}Aralarındaki İlişki
+Dialogue: 2,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord0\t(23,3694,\bord0)}1. Bölüm
+Dialogue: 2,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord0\t(23,3694,\bord0)}Aralarındaki İlişki
+Dialogue: 1,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fade(255,0,255,0,800,3710,3710)\bord5\t(23,3694,\bord4.25)\1a&HDA&}1. Bölüm
+Dialogue: 1,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85)\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur0\fade(255,0,255,0,800,3710,3710)\bord5\t(23,3694,\bord4.25)\1a&HDA&}Aralarındaki İlişki
+Dialogue: 0,0:03:40.28,0:03:43.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\t(23,3694,\bord5.1)\move(966.46,402.58,962.96,422.58,23,3694)\blur10\fade(255,0,255,0,800,3710,3710)\1a&HE9&}1. Bölüm
+Dialogue: 0,0:03:40.28,0:03:43.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\t(23,3694,\bord5.1)\move(968.62,728.09,964.79,699.47,23,3694)\blur10\fade(255,0,255,0,800,3710,3710)\1a&HE9&}Aralarındaki İlişki
 Dialogue: 99,0:03:45.67,0:03:47.99,main,Lawrence,0,0,0,,Harika bir iş çıkardınız, Azize Hanım.
 Dialogue: 99,0:03:47.99,0:03:49.49,main,Lawrence,0,0,0,,Ama merak ediyordum da...
 Dialogue: 99,0:03:49.49,0:03:51.54,main,Cecilia,0,0,0,,Bittim...
@@ -134,7 +130,6 @@ Dialogue: 99,0:05:13.36,0:05:15.96,main,Cecilia,0,0,0,,Çapayla kazmama izin ver
 Dialogue: 99,0:05:15.96,0:05:18.60,main,Lawrence,0,0,0,,Çünkü düşüp kendine zarar verebilirsin.
 Dialogue: 99,0:05:18.60,0:05:20.80,main,Cecilia,0,0,0,,Yemek yapmama da izin vermiyorsun.
 Dialogue: 99,0:05:21.07,0:05:23.80,main,Lawrence,0,0,0,,Çünkü kendini yakabilirsin.
-Dialogue: 0,0:05:23.63,0:05:24.88,signs_brown,text; arrow,0,0,0,,{\bord0\blur0.5\fs30\pos(384.87,258.53)}Aşırı koruyucusun.
 Dialogue: 99,0:05:27.13,0:05:28.16,main,Lawrence,0,0,0,,Peki o zaman!
 Dialogue: 99,0:05:28.16,0:05:31.27,main,Lawrence,0,0,0,,Turuma çıkacağım ve\Ntüm evleri ziyaret edeceğim.
 Dialogue: 99,0:05:31.27,0:05:32.42,main,Lawrence,0,0,0,,Azize Hanım, sen—
@@ -178,7 +173,6 @@ Dialogue: 99,0:07:05.99,0:07:09.15,main,lady,0,0,0,,Papaz, Azize Hanım, merhaba
 Dialogue: 99,0:07:09.60,0:07:10.92,main,Cecilia,0,0,0,,Merhaba!
 Dialogue: 99,0:07:11.40,0:07:12.69,main,Lawrence; internal,0,0,0,,{\i1}Gerçekten.
 Dialogue: 99,0:07:12.69,0:07:15.64,main,Lawrence; internal,0,0,0,,{\i1}Neden sadece benim\Nönümde böyle davranmıyor ki?
-Dialogue: 0,0:07:15.78,0:07:17.04,signs_brown,Sign,0,0,0,,{\bord0\blur0.5\pos(490.236,830.121)}Biraz saf.
 Dialogue: 99,0:07:17.72,0:07:21.32,main,Lawrence,0,0,0,,O halde, itirazınız yoksa,\Ngelecek hafta da aynısını yapacağız.
 Dialogue: 99,0:07:21.32,0:07:23.11,main,child 1; boy,0,0,0,,Ah, işte azize hanım!
 Dialogue: 99,0:07:23.11,0:07:24.17,main,child 2; girl,0,0,0,,Azize Hanım!
@@ -308,8 +302,6 @@ Dialogue: 99,0:13:53.64,0:13:56.27,main,Lawrence; internal,0,0,0,,{\i1}Ancak, o\
 Dialogue: 99,0:13:59.95,0:14:04.15,main,Lawrence; internal,0,0,0,,{\i1}Asıl dikkat etmem gerekenin,\Nonun kişiliği olduğunu fark ettim.
 Dialogue: 99,0:14:04.69,0:14:06.63,main,Lawrence,0,0,0,,Lütfen dikkatli olun.
 Dialogue: 99,0:14:06.63,0:14:08.37,main,Cecilia,0,0,0,,Özür dilerim.
-Dialogue: 0,0:14:09.95,0:14:12.95,sign_note,text,0,0,0,,{\pos(360.942,250.239)\fad(2000,0)\blur0.5\bord0}Lawrence'ın çörekleri muhteşem
-Dialogue: 0,0:14:13.95,0:14:16.96,sign_note,text,0,0,0,,{\pos(1324.176,222.216)\fad(2000,0)\blur0.5\bord0}Biraz daha\Nçeşitlilik katmam lazım...
 Dialogue: 99,0:14:17.53,0:14:19.46,main,Lawrence,0,0,0,,Azize Hanım?
 Dialogue: 99,0:14:19.46,0:14:21.20,main,Lawrence,0,0,0,,Sabah oldu!
 Dialogue: 99,0:14:21.20,0:14:24.83,main,Lawrence,0,0,0,,Bir an önce uyanmazsanız,\Nkahvaltınız soğuyacak!
@@ -396,7 +388,6 @@ Dialogue: 99,0:18:09.28,0:18:11.92,main,Cecilia,0,0,0,,Ş-Şekerlemeler için ay
 Dialogue: 99,0:18:11.92,0:18:13.11,main,Lawrence,0,0,0,,Ama...
 Dialogue: 99,0:18:13.11,0:18:16.65,main,Cecilia,0,0,0,,Lütfen hayatımdaki eğlenceyi benden çalma!
 Dialogue: 99,0:18:16.65,0:18:18.95,main,Lawrence,0,0,0,,Buradaki görevin zorluk\Nderecesini birdenbire artırdın.
-Dialogue: 0,0:18:19.07,0:18:20.32,signs_brown,text,0,0,0,,{\bord0\blur0.5\pos(1376.97,933.594)\c&H3A3044&}Malzemeleri aldım.
 Dialogue: 99,0:18:20.66,0:18:24.01,main,Lawrence,0,0,0,,Hayatta bekleyebileceğimiz\Nbaşka şeyler de var, değil mi?
 Dialogue: 99,0:18:24.01,0:18:26.08,main,Cecilia,0,0,0,,Elbette var!
 Dialogue: 99,0:18:26.08,0:18:26.83,main,Lawrence,0,0,0,,Değil mi?
