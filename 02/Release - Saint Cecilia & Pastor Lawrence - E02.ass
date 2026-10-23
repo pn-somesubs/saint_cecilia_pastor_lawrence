@@ -1,0 +1,512 @@
+[Script Info]
+Title: pn-SomeSubs - Saint Cecilia & Pastor Lawrence
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: Yes
+PlayResX: 1920
+PlayResY: 1080
+YCbCr Matrix: TV.709
+LayoutResX: 1920
+LayoutResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: main,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
+Style: top,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,8,225,225,60,1
+Style: episode title,Arial,60,&H00EFF5F5,&H000000FF,&H000059A5,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,90,1
+Style: OPJP,Rosemary,50,&H00FFFFFF,&H00FFFFFF,&H004E4FDE,&H00FFFFFF,0,0,0,0,100,100,0,0,1,4,0,8,0,0,30,1
+Style: EDJP,2R9BOATD,70,&H007D7CF9,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,3,0,1,2.2,0,7,30,30,20,128
+Style: signs_brown,Arial,60,&H000F2352,&H000000FF,&H00F4F8FA,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
+Style: sign_note,Comic Sans MS,51,&H002B3447,&H000000FF,&H00E4EEF1,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:11.00,main,,0,0,0,,{\fs50\an7\fe162\fad(400,400)\bord2\blur5\shad0\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} künefe-kun\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
+Dialogue: 0,0:00:45.44,0:00:48.19,OPJP,,0,0,0,,{\fad(150,150)\blur1}Koi no shunkan umarekawaru
+Dialogue: 0,0:00:48.19,0:00:51.07,OPJP,,0,0,0,,{\fad(150,150)\blur1}Aozora to kimi dake na no
+Dialogue: 0,0:00:51.57,0:00:56.91,OPJP,,0,0,0,,{\fad(150,150)\blur1}(Turtledove  shuua Turtledove padupaa)
+Dialogue: 0,0:01:02.17,0:01:07.96,OPJP,,0,0,0,,{\fad(150,150)\blur1}Nee, hanasaku michi o yurasu futari no kage ni
+Dialogue: 0,0:01:07.96,0:01:13.64,OPJP,,0,0,0,,{\fad(150,150)\blur1}Choppiri furete kossori tokimeku kokoro
+Dialogue: 0,0:01:13.64,0:01:19.31,OPJP,,0,0,0,,{\fad(150,150)\blur1}Mou itsumo sono kao yasashii donkan na egao
+Dialogue: 0,0:01:19.31,0:01:23.90,OPJP,,0,0,0,,{\fad(150,150)\blur1}Kekkyoku kidzukanai desho? Gakkari kyou mo
+Dialogue: 0,0:01:24.90,0:01:30.45,OPJP,,0,0,0,,{\fad(150,150)\blur1}Lan, Lan koi no suteppu Tu, Tu kanademashou
+Dialogue: 0,0:01:30.45,0:01:33.32,OPJP,,0,0,0,,{\fad(150,150)\blur1}"Motto shiritai" "chikazukitai" "watashi o mite" "kimochi ni kizuite!"
+Dialogue: 0,0:01:33.32,0:01:36.49,OPJP,,0,0,0,,{\fad(150,150)\blur1}Shining, Charming, Blooming, Be mine！
+Dialogue: 0,0:01:38.75,0:01:44.67,OPJP,,0,0,0,,{\fad(150,150)\blur1}Kimi no koto kimi no koto "suki!" tte sakebitai nda
+Dialogue: 0,0:01:44.67,0:01:50.26,OPJP,,0,0,0,,{\fad(150,150)\blur1}Watashi dake watashi dake furimuite waratte
+Dialogue: 0,0:01:50.26,0:01:55.93,OPJP,,0,0,0,,{\fad(150,150)\blur1}Fushigi da ne kimi o omoeba sekai wa irodzuiteku
+Dialogue: 0,0:01:55.93,0:02:01.52,OPJP,,0,0,0,,{\fad(150,150)\blur1}Mada mada mada mada kono mama owarasenai yo koi o
+Dialogue: 0,0:02:01.52,0:02:04.40,OPJP,,0,0,0,,{\fad(150,150)\blur1}Unmei no hito meguriaeta
+Dialogue: 0,0:02:04.40,0:02:07.48,OPJP,,0,0,0,,{\fad(150,150)\blur1}Zutto zutto soba ni iru yo
+Dialogue: 0,0:02:07.48,0:02:10.61,OPJP,,0,0,0,,{\fad(150,150)\blur1}Motto egao misete ne
+Dialogue: 0,0:00:45.44,0:00:48.19,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Aşık olduğum an yeniden doğarım.
+Dialogue: 0,0:00:48.19,0:00:51.07,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Sadece sen ve mavi gökyüzü.
+Dialogue: 0,0:01:02.17,0:01:07.96,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Hey, çiçek açan yolda sallanan iki gölgemiz
+Dialogue: 0,0:01:07.96,0:01:13.64,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Küçük bir dokunuş, gizlice... kalbimi titretiyor
+Dialogue: 0,0:01:13.64,0:01:19.31,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Hep o ifade, o yumuşak, hoş gülümseme
+Dialogue: 0,0:01:19.31,0:01:23.90,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Fark etmeyeceksin, değil mi? Bugün de hayal kırıklığı.
+Dialogue: 0,0:01:24.90,0:01:30.45,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Lan Lan hadi aşkın adımını oynayalım Tu Tu
+Dialogue: 0,0:01:30.45,0:01:33.32,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}"Daha fazlasını bilmek istiyorum", "Yaklaşmak istiyorum",\N "Bana bak", "Lütfen duygularımı fark et!"
+Dialogue: 9,0:01:33.32,0:01:36.49,OPJP,,0,0,0,,
+Dialogue: 0,0:01:38.75,0:01:44.67,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Senden hoşlanıyorum. Senden hoşlanıyorum. "Seni seviyorum!" diye bağırmak istiyorum
+Dialogue: 0,0:01:44.67,0:01:50.26,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Sadece benim, sadece benim, arkanı dön ve gülümse
+Dialogue: 0,0:01:50.26,0:01:55.93,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Garip. Seni düşündüğümde dünya renkleniyor.
+Dialogue: 0,0:01:55.93,0:02:01.52,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Daha çok yolumuz var, aşkımın böyle bitmesine izin vermem
+Dialogue: 0,0:02:01.52,0:02:04.40,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Hayallerimin erkeğiyle tanıştım.
+Dialogue: 0,0:02:04.40,0:02:07.48,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Sonsuza kadar yanında olacağım
+Dialogue: 0,0:02:07.48,0:02:10.61,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Lütfen bana gülümsemeni daha çok göster
+Dialogue: 0,0:22:17.94,0:22:20.74,EDJP,,0,0,0,,{\fad(200,200)\be5}Soyokaze no you ni sore wa
+Dialogue: 0,0:22:20.74,0:22:23.66,EDJP,,0,0,0,,{\fad(200,200)\be5}Sukima wo nadete warau
+Dialogue: 0,0:22:23.66,0:22:28.45,EDJP,,0,0,0,,{\fad(200,200)\be5}Kawaru gawaru mainichi wo irodotteiku
+Dialogue: 0,0:22:29.25,0:22:31.87,EDJP,,0,0,0,,{\fad(200,200)\be5}Terasareta you na ki ga shita
+Dialogue: 0,0:22:32.04,0:22:34.79,EDJP,,0,0,0,,{\fad(200,200)\be5}Doko ni demo aru mainichi wo
+Dialogue: 0,0:22:34.79,0:22:39.67,EDJP,,0,0,0,,{\fad(200,200)\be5}Kono te ni tewatasareta you ni omoeta
+Dialogue: 0,0:22:39.67,0:22:42.66,EDJP,,0,0,0,,{\fad(200,200)\be5}Yawarakaku warau kimi no soba de
+Dialogue: 0,0:22:42.66,0:22:45.39,EDJP,,0,0,0,,{\fad(200,200)\be5}Boku ni dekiru koto sagashiteiru
+Dialogue: 0,0:22:45.39,0:22:48.25,EDJP,,0,0,0,,{\fad(200,200)\be5}Kokoro ni tomotta kono ondo wo
+Dialogue: 0,0:22:48.25,0:22:52.92,EDJP,,0,0,0,,{\fad(200,200)\be5}Mamotteitainda, tawai mo nai kono hibi wo
+Dialogue: 0,0:22:52.92,0:22:55.88,EDJP,,0,0,0,,{\fad(200,200)\be5}Dakishimetai to omou no wa
+Dialogue: 0,0:22:55.88,0:22:58.55,EDJP,,0,0,0,,{\fad(200,200)\be5}Itsumademo kono keshiki wo
+Dialogue: 0,0:22:58.55,0:23:01.44,EDJP,,0,0,0,,{\fad(200,200)\be5}Anata to waratteitai kara
+Dialogue: 0,0:23:01.44,0:23:04.26,EDJP,,0,0,0,,{\fad(200,200)\be5}Inori wa kaze ni nosete
+Dialogue: 0,0:23:04.26,0:23:07.18,EDJP,,0,0,0,,{\fad(200,200)\be5}Anata no yobu koe no hou e
+Dialogue: 0,0:23:07.18,0:23:10.64,EDJP,,0,0,0,,{\fad(200,200)\be5}Katachi no nai kakegae nai omoi wa
+Dialogue: 0,0:23:10.64,0:23:14.12,EDJP,,0,0,0,,{\fad(200,200)\be5}Itsuka kotoba ni natteite
+Dialogue: 0,0:22:17.94,0:22:20.74,EDJP,,0,0,0,,{\fad(200,200)\an3}Hafif bir esinti gibi,
+Dialogue: 0,0:22:20.74,0:22:23.66,EDJP,,0,0,0,,{\fad(200,200)\an3}aralıklardan geçip gülümser
+Dialogue: 0,0:22:23.66,0:22:28.45,EDJP,,0,0,0,,{\fad(200,200)\an3}Sürekli değişen günleri renklendirip
+Dialogue: 0,0:22:29.25,0:22:31.87,EDJP,,0,0,0,,{\fad(200,200)\an3}onları canlı kılar
+Dialogue: 0,0:22:32.04,0:22:34.79,EDJP,,0,0,0,,{\fad(200,200)\an3}Aydınlatılıyormuşum gibi hissettim
+Dialogue: 0,0:22:34.79,0:22:39.67,EDJP,,0,0,0,,{\fad(200,200)\an3}Sanki her sıradan gün bana verilmiş gibi
+Dialogue: 0,0:22:39.67,0:22:42.66,EDJP,,0,0,0,,{\fad(200,200)\an3}Yumuşak gülümsemenle yanında
+Dialogue: 0,0:22:42.66,0:22:45.39,EDJP,,0,0,0,,{\fad(200,200)\an3}Yapabileceğim bir şey arıyorum
+Dialogue: 0,0:22:45.39,0:22:48.25,EDJP,,0,0,0,,{\fad(200,200)\an3}Bu sıcaklığı korumak istiyorum,
+Dialogue: 0,0:22:48.25,0:22:50.22,EDJP,,0,0,0,,{\fad(200,200)\an3}kalbime yerleşen
+Dialogue: 0,0:22:50.22,0:22:55.88,EDJP,,0,0,0,,{\fad(200,200)\an3}Bu önemsiz günleri kucaklamak istiyorum
+Dialogue: 0,0:22:55.88,0:22:58.55,EDJP,,0,0,0,,{\fad(200,200)\be5\an3}Çünkü her zaman...
+Dialogue: 0,0:22:58.55,0:23:01.44,EDJP,,0,0,0,,{\fad(200,200)\be5\an3}...bu manzarada seninle gülmek istiyorum
+Dialogue: 0,0:23:01.44,0:23:04.26,EDJP,,0,0,0,,{\fad(200,200)\an3}Dualarımı rüzgâra salıyorum,
+Dialogue: 0,0:23:04.26,0:23:07.18,EDJP,,0,0,0,,{\fad(200,200)\an3}sesinin geldiği yöne
+Dialogue: 0,0:23:07.18,0:23:10.64,EDJP,,0,0,0,,{\fad(200,200)\an3}Bu şekilsiz, yeri doldurulamaz duygular,
+Dialogue: 0,0:23:10.64,0:23:14.12,EDJP,,0,0,0,,{\fad(200,200)\an3}bir gün kelimelere dönüşecek
+Dialogue: 2,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fad(800,0)\bord0\t(23,3694,\bord0)}2. Bölüm
+Dialogue: 2,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur1\fad(800,0)\bord0\t(23,3694,\bord0)}Korudukları Şeyler
+Dialogue: 1,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fad(800,0)\bord5\t(23,3694,\bord4.25)\1a&HDA&}2. Bölüm
+Dialogue: 1,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur0\fad(800,0)\bord5\t(23,3694,\bord4.25)\1a&HDA&}Korudukları Şeyler
+Dialogue: 0,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\t(23,3694,\bord5.1)\move(966.46,402.58,962.96,422.58,23,3694)\blur10\fad(800,0)\1a&HE9&}2. Bölüm
+Dialogue: 0,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\t(23,3694,\bord5.1)\move(968.62,728.09,964.79,699.47,23,3694)\blur10\fad(800,0)\1a&HE9&}Korudukları Şeyler
+Dialogue: 9,0:11:49.01,0:11:53.38,main,young Lawrence,0,0,0,,Yine burada tökezledim! Of!
+Dialogue: 99,0:11:54.33,0:11:59.10,main,grandpa,0,0,0,,{\an8}Çünkü sadece o kısımda\Nnotanın ilerisini takip etmiyorsun.
+Dialogue: 9,0:11:59.66,0:12:05.08,main,young Lawrence,0,0,0,,Dede, yeni bir azizenin\Nbulunması bu kadar önemli mi?
+Dialogue: 9,0:12:05.08,0:12:06.65,main,grandpa,0,0,0,,Şey, evet, öyle.
+Dialogue: 9,0:12:06.96,0:12:11.04,main,grandpa,0,0,0,,Çünkü insanların aradığı azizelerden\Nbir tane daha var artık.
+Dialogue: 9,0:12:11.04,0:12:13.79,main,grandpa,0,0,0,,Elbette herkes buna seviniyor.
+Dialogue: 9,0:12:15.62,0:12:20.00,main,grandpa,0,0,0,,Bu köyün henüz bir azizenin\Nilahi koruması yok.
+Dialogue: 9,0:12:20.23,0:12:21.24,main,young Lawrence,0,0,0,,İlahi koruma?
+Dialogue: 9,0:12:21.56,0:12:25.14,main,grandpa,0,0,0,,Azizeler insanları korur.
+Dialogue: 9,0:12:25.14,0:12:28.19,main,grandpa,0,0,0,,Onları korur, ister kalplerindeki zayıflıktan\Nolsun...
+Dialogue: 9,0:12:28.19,0:12:29.92,main,grandpa,0,0,0,,ister dış kötülüklerden.
+Dialogue: 9,0:12:29.92,0:12:33.22,main,grandpa,0,0,0,,Doğal afetlerden koruduklarına dair\Nhikâyeler de var.
+Dialogue: 9,0:12:33.22,0:12:36.04,main,young Lawrence,0,0,0,,Afetlerden mi? Nasıl?
+Dialogue: 9,0:12:36.04,0:12:37.61,main,grandpa,0,0,0,,Hiçbir fikrim yok.
+Dialogue: 9,0:12:37.61,0:12:40.61,main,grandpa,0,0,0,,Azizelerin bizi koruma\Nisteği vardır.
+Dialogue: 9,0:12:40.61,0:12:46.57,main,grandpa,0,0,0,,Ve yarattıkları mucizelere\Nbazen ilahi koruma denir.
+Dialogue: 9,0:12:46.57,0:12:52.32,main,grandpa,0,0,0,,Ve ancak biz onları koruduğumuz için\Nonlar bizi korumaya devam edebilir.
+Dialogue: 9,0:12:52.56,0:12:54.20,main,grandpa,0,0,0,,Anlıyor musun, Lawren?
+Dialogue: 9,0:12:55.03,0:13:00.59,main,grandpa,0,0,0,,Bir azizeyle karşılaşırsan,\Nbunu unutmamalısın.
+Dialogue: 9,0:13:00.59,0:13:04.57,main,grandpa,0,0,0,,Sonuçta sen diğerlerinden\Nbiraz farklısın.
+Dialogue: 9,0:13:36.83,0:13:37.93,main,Lawrence,0,0,0,,Çok güzeller.
+Dialogue: 9,0:13:37.93,0:13:40.41,main,Lawrence,0,0,0,,Onları azizenin de görebileceği\Nbir yere koyayım.
+Dialogue: 9,0:21:28.40,0:21:33.80,main,grandpa,0,0,0,,Ve ancak biz onları koruduğumuz için\Nonlar bizi korumaya devam edebilir.
+Dialogue: 9,0:11:12.35,0:11:16.46,top,young Abel; background,0,0,0,,Sakin ol, sakin ol, sakin ol, sakin ol,\NSakin ol, sakin ol, sakin ol, sakin ol...
+Dialogue: 9,0:02:27.36,0:02:28.52,main,Cecilia; internal,0,0,0,,{\i1}Kıskandım.
+Dialogue: 9,0:03:43.97,0:03:45.01,main,Cecilia; internal,0,0,0,,{\i1}"Ben" mi?
+Dialogue: 9,0:03:46.17,0:03:47.37,main,Cecilia; internal,0,0,0,,{\i1}"Ben"?
+Dialogue: 9,0:03:47.68,0:03:50.25,main,Cecilia; internal,0,0,0,,{\i1}"Ben" dedi!
+Dialogue: 9,0:05:32.99,0:05:36.04,main,Cecilia; internal,0,0,0,,{\i1}Belki de o kadar da kötü biri değildir.
+Dialogue: 9,0:06:06.16,0:06:08.28,main,Lawrence; internal,0,0,0,,{\i1}Düşününce, ilahiyat okulundayken,
+Dialogue: 9,0:06:08.28,0:06:12.45,main,Lawrence; internal,0,0,0,,{\i1}Abel yeni ay zamanlarında\Nsık sık bana gelirdi.
+Dialogue: 9,0:06:31.86,0:06:33.20,main,Cecilia; internal,0,0,0,,{\i1}Kıskandım.
+Dialogue: 9,0:08:33.30,0:08:37.24,main,Cecilia; internal,0,0,0,,{\i1}Lawren o kadar dürüst ki,\Nbir bakıma korkutucu!
+Dialogue: 9,0:08:37.55,0:08:42.28,main,Cecilia; internal,0,0,0,,{\i1}Dürüst, ciddi ve akıllı...
+Dialogue: 9,0:08:42.28,0:08:43.75,main,Cecilia; internal,0,0,0,,{\i1}ve nazik.
+Dialogue: 9,0:08:44.64,0:08:48.71,main,Cecilia; internal,0,0,0,,{\i1}Beni ilk bulan kişi o.
+Dialogue: 9,0:09:43.82,0:09:46.56,main,Cecilia; internal,0,0,0,,{\i1}Neden birden böyle\Nbaş ağrısı çekiyor?
+Dialogue: 9,0:09:47.56,0:09:49.78,main,Cecilia; internal,0,0,0,,{\i1}B-Birini çağırmalıyım!
+Dialogue: 9,0:14:12.78,0:14:14.16,main,Abel; internal,0,0,0,,{\i1}Diz mi çöktü?
+Dialogue: 9,0:14:31.98,0:14:33.90,main,Abel,0,0,0,,{\i1}Ne kadar korumacı.
+Dialogue: 9,0:14:33.90,0:14:37.90,main,Abel,0,0,0,,{\i1}O da korumacı ama\Ngaliba denkler.
+Dialogue: 9,0:15:08.68,0:15:10.30,main,Abel; internal,0,0,0,,{\i1}İşte tam bir çekişme.
+Dialogue: 9,0:17:01.40,0:17:06.59,main,Abel; internal,0,0,0,,{\i1}Böyle bakınca,\No sadece Lawren'a aşık bir kız.
+Dialogue: 9,0:19:30.69,0:19:34.16,main,Abel; internal,0,0,0,,{\i1}Yani kendi sağlığı önce gelmiyor mu?
+Dialogue: 9,0:20:27.88,0:20:31.68,main,Lawrence; internal,0,0,0,,{\i1}Azizenin yanında "saygı"\Nkelimesini koyunca,
+Dialogue: 9,0:20:31.68,0:20:33.91,main,Lawrence; internal,0,0,0,,{\i1}bu kelime yetersiz kalıyor gibi.
+Dialogue: 9,0:20:34.23,0:20:36.34,main,Lawrence; internal,0,0,0,,{\i1}Yani, ona saygı duyuyorum,
+Dialogue: 9,0:20:36.66,0:20:39.28,main,Lawrence; internal,0,0,0,,{\i1}ama bu her şeyi anlatmıyor.
+Dialogue: 9,0:20:40.03,0:20:41.84,main,Lawrence; internal,0,0,0,,{\i1}Onunla tanıştığımdan beri...
+Dialogue: 9,0:20:47.00,0:20:49.67,main,Lawrence; internal,0,0,0,,{\i1}o hep bir azizeydi, anlıyor musun?
+Dialogue: 9,0:21:18.84,0:21:23.04,main,Lawrence; internal,0,0,0,,{\i1}Böyle söyleyince,\Nbana ihtiyacı varmış gibi geliyor.
+Dialogue: 9,0:21:23.64,0:21:27.07,main,Lawrence; internal,0,0,0,,{\i1}Ama azize sayesinde her gün ben...
+Dialogue: 9,0:21:40.21,0:21:44.07,main,Lawrence; internal,0,0,0,,{\i1}Dede, bana anlatmak istediğin\Nşey bu muydu?
+Dialogue: 9,0:21:45.40,0:21:47.95,main,Lawrence; internal,0,0,0,,{\i1}Bahsettiğin o "eğer\Nkarşılaşırsan" gibi...
+Dialogue: 9,0:21:48.43,0:21:52.50,main,Lawrence; internal,0,0,0,,{\i1}Korumak istediğim bir\NAzizeyle tanıştım.
+Dialogue: 9,0:18:27.19,0:18:29.88,top,Abel; internal,0,0,0,,{\i1}Azize Cecilia'ya işkence ediyor gibi görünüyor.
+Dialogue: 9,0:00:04.59,0:00:06.02,main,Cecilia,0,0,0,,Bu da ne?
+Dialogue: 9,0:00:07.03,0:00:10.47,main,Cecilia,0,0,0,,Lawren? Orada mısın?
+Dialogue: 9,0:00:11.96,0:00:13.28,main,Cecilia,0,0,0,,Lawren?
+Dialogue: 9,0:00:15.56,0:00:16.53,main,Cecilia,0,0,0,,Bu...
+Dialogue: 9,0:00:16.84,0:00:19.79,main,Lawrence,0,0,0,,Ah, günaydın, Azize—
+Dialogue: 9,0:00:20.49,0:00:22.49,main,Abel,0,0,0,,Bu hiç hoş değil, değil mi?
+Dialogue: 9,0:00:22.49,0:00:26.25,main,Abel,0,0,0,,Bütün gece kapıyı\Nçaldım, biliyorsun?
+Dialogue: 9,0:00:26.25,0:00:28.08,main,Abel,0,0,0,,Dur. Ha?
+Dialogue: 9,0:00:30.12,0:00:31.76,main,Abel,0,0,0,,Özür dilerim dedim.
+Dialogue: 9,0:00:31.76,0:00:34.36,main,Cecilia,0,0,0,,Lawren, bu beyefendi kim?
+Dialogue: 9,0:00:34.36,0:00:36.00,main,Lawrence,0,0,0,,Özür dilerim.
+Dialogue: 9,0:00:36.00,0:00:38.77,main,Lawrence,0,0,0,,Onu ilahiyat okulundan tanıyorum.
+Dialogue: 9,0:00:38.77,0:00:41.29,main,Abel,0,0,0,,Benim adım Abel!
+Dialogue: 9,0:02:16.76,0:02:18.87,main,Lawrence,0,0,0,,Gerçekten...
+Dialogue: 9,0:02:18.87,0:02:20.96,main,Lawrence,0,0,0,,En azından geleceğini\Nönceden haber verebilirdin.
+Dialogue: 9,0:02:20.96,0:02:23.40,main,Abel,0,0,0,,Ama biz eski dostuz,\Nbuna gerek yok, değil mi?
+Dialogue: 9,0:02:23.40,0:02:25.57,main,Lawrence,0,0,0,,Sen gerçekten hiç değişmemişsin, değil mi?
+Dialogue: 9,0:02:25.57,0:02:27.36,main,Abel,0,0,0,,Aynısını senin için de söyleyebilirim.
+Dialogue: 9,0:02:29.10,0:02:32.08,main,Abel,0,0,0,,Yani bu azize, öyle mi?
+Dialogue: 9,0:02:32.08,0:02:34.55,main,Lawrence,0,0,0,,Azizeyi nereden biliyorsun?
+Dialogue: 9,0:02:35.42,0:02:37.30,main,Abel,0,0,0,,Anladım, anladım.
+Dialogue: 9,0:02:37.30,0:02:38.12,main,Lawrence,0,0,0,,Çok yakınsın!
+Dialogue: 9,0:02:38.12,0:02:39.04,main,Abel,0,0,0,,Ah!
+Dialogue: 9,0:02:39.30,0:02:42.16,main,Lawrence,0,0,0,,Azizeyi korkutacak\Nbir şey yapma.
+Dialogue: 9,0:02:42.16,0:02:44.20,main,Lawrence,0,0,0,,Ee, neden buradasın?
+Dialogue: 9,0:02:44.20,0:02:45.22,main,Abel,0,0,0,,Aslına bakarsan,
+Dialogue: 9,0:02:45.22,0:02:49.36,main,Abel,0,0,0,,Bir süre senin kilisende\Nçalışayım dedim!
+Dialogue: 9,0:02:51.53,0:02:52.34,main,Abel,0,0,0,,Ha?
+Dialogue: 9,0:02:52.68,0:02:54.11,main,Cecilia,0,0,0,,Lawren,
+Dialogue: 9,0:02:54.11,0:02:58.20,main,Cecilia,0,0,0,,bunun altında başka bir şey\Nolduğunu ben bile anlıyorum,
+Dialogue: 9,0:02:58.20,0:03:03.08,main,Cecilia,0,0,0,,ama bir dostu böyle\Nihmal etmek çok...
+Dialogue: 9,0:03:07.80,0:03:11.24,main,Lawrence,0,0,0,,Burada çalışmayı neden\Ndüşündün ki?
+Dialogue: 9,0:03:11.24,0:03:14.66,main,Lawrence,0,0,0,,Çok daha büyük bir kasabada\Nbir kiliseye bağlıydın, değil mi?
+Dialogue: 9,0:03:15.45,0:03:16.43,main,Lawrence,0,0,0,,Kovuldun mu?
+Dialogue: 9,0:03:16.43,0:03:19.00,main,Cecilia,0,0,0,,Lütfen böyle üzücü şeyler söylemeyin.
+Dialogue: 9,0:03:19.25,0:03:22.96,main,Abel,0,0,0,,İnsanlarla uğraşmaktan yoruldum.
+Dialogue: 9,0:03:22.96,0:03:24.56,main,Cecilia,0,0,0,,Lawren!
+Dialogue: 9,0:03:24.93,0:03:27.81,main,Lawrence,0,0,0,,Sadece kısa bir süre, tamam mı?
+Dialogue: 9,0:03:28.22,0:03:30.99,main,Abel,0,0,0,,Tamam! O zaman eşyalarımı almaya gidiyorum.
+Dialogue: 9,0:03:33.19,0:03:35.26,main,Lawrence,0,0,0,,Çok özür dilerim, Azize Hanım.
+Dialogue: 9,0:03:35.26,0:03:37.99,main,Cecilia,0,0,0,,Hiç sorun değil. Çok zor olmalı.
+Dialogue: 9,0:03:37.99,0:03:39.58,main,Lawrence,0,0,0,,Evet.
+Dialogue: 9,0:03:39.58,0:03:43.37,main,Lawrence,0,0,0,,Yoksa ona gereksiz bir vaaz vermem gerekecek.
+Dialogue: 9,0:03:52.75,0:03:54.25,main,Abel,0,0,0,,Hey, Lawren?
+Dialogue: 9,0:03:54.25,0:03:56.96,main,Abel,0,0,0,,Azizenin adı ne?
+Dialogue: 9,0:03:56.96,0:03:59.25,main,Lawrence,0,0,0,,Ha? Şey, o...
+Dialogue: 9,0:04:04.42,0:04:05.20,main,Lawrence,0,0,0,,Buyur.
+Dialogue: 9,0:04:05.20,0:04:06.96,main,Abel,0,0,0,,Neden yazdın?
+Dialogue: 9,0:04:07.56,0:04:08.75,main,Abel,0,0,0,,Azize Hanım!
+Dialogue: 9,0:04:08.75,0:04:12.07,main,Abel,0,0,0,,Arkadaş olduğumuzu göstermek için\Nsana Azize Cecilia diyebilir miyim?
+Dialogue: 9,0:04:14.68,0:04:16.14,main,Abel,0,0,0,,Ne oldu?
+Dialogue: 9,0:04:16.14,0:04:19.93,main,Cecilia,0,0,0,,Daha önce kimse bana\Nadımla hitap etmemişti, o yüzden...
+Dialogue: 9,0:04:19.93,0:04:20.76,main,Abel,0,0,0,,Ne?
+Dialogue: 9,0:04:21.26,0:04:22.15,main,Abel,0,0,0,,Ha?
+Dialogue: 9,0:04:22.15,0:04:23.66,main,Lawrence,0,0,0,,Ne?
+Dialogue: 9,0:04:23.66,0:04:27.47,main,Abel,0,0,0,,Bu kadar güzel bir adı var\Nve sen ona hiç adıyla hitap etmedin mi?
+Dialogue: 9,0:04:27.47,0:04:28.93,main,Abel,0,0,0,,Aptal mısın?
+Dialogue: 9,0:04:29.28,0:04:34.44,main,Abel,0,0,0,,Azizenin adını söylemesini istediğimde\Nyazdı!
+Dialogue: 9,0:04:35.16,0:04:37.89,main,Lawrence,0,0,0,,Abel, galiba sonraki üç öğünü\Natlamak istiyorsun.
+Dialogue: 9,0:04:37.89,0:04:39.37,main,Abel,0,0,0,,Özür dilerim.
+Dialogue: 9,0:04:41.27,0:04:45.92,main,Lawrence,0,0,0,,Yapmam gereken bazı evraklar var,\Nbiraz bekleyebilir misin?
+Dialogue: 9,0:04:45.92,0:04:47.16,main,Abel,0,0,0,,Tamamdır!
+Dialogue: 9,0:04:50.61,0:04:52.84,main,Cecilia,0,0,0,,Şey, Bay Abel?
+Dialogue: 9,0:04:52.84,0:04:54.30,main,Abel,0,0,0,,Abel yeter.
+Dialogue: 9,0:04:54.84,0:04:59.03,main,Cecilia,0,0,0,,Lawren'ı ilahiyat okulundan\Nberi tanıdığını duydum.
+Dialogue: 9,0:04:59.03,0:05:00.44,main,Abel,0,0,0,,Evet, öyle.
+Dialogue: 9,0:05:00.75,0:05:06.61,main,Cecilia,0,0,0,,Şey, Lawren'ın b-bir sevgilisi var mı?
+Dialogue: 9,0:05:07.84,0:05:08.96,main,Abel,0,0,0,,Var.
+Dialogue: 9,0:05:14.03,0:05:17.78,main,Abel,0,0,0,,Kutsal kitaplar onun için hep\Nbir sevgili gibiydi, anlıyor musun?
+Dialogue: 9,0:05:17.78,0:05:19.21,main,Cecilia,0,0,0,,Kutsal kitaplar mı?
+Dialogue: 9,0:05:19.21,0:05:20.04,main,Abel,0,0,0,,Evet.
+Dialogue: 9,0:05:21.89,0:05:24.18,main,Cecilia,0,0,0,,Abel, sen insanlara kötü şakalar\Nyapan tiplerdensin, değil mi?
+Dialogue: 9,0:05:24.18,0:05:26.59,main,Abel,0,0,0,,O zaman özür olarak bunu vereyim.
+Dialogue: 9,0:05:26.59,0:05:27.89,main,Cecilia,0,0,0,,Bu ne?
+Dialogue: 9,0:05:27.89,0:05:31.22,main,Abel,0,0,0,,Lawren'ın az önce adını yazdığı\Nkâğıt, Azize Cecilia.
+Dialogue: 9,0:05:31.22,0:05:32.68,main,Cecilia,0,0,0,,Kabul ediyorum!
+Dialogue: 9,0:05:36.04,0:05:38.64,main,Abel,0,0,0,,Sana hep kolay kandığın söylenmiyor mu?
+Dialogue: 9,0:05:38.96,0:05:40.65,main,Lawrence,0,0,0,,Beklettiğim için özür dilerim.
+Dialogue: 9,0:05:40.90,0:05:43.31,main,Lawrence,0,0,0,,Peki, kiliseye gidelim mi?
+Dialogue: 9,0:05:44.19,0:05:46.15,main,Cecilia,0,0,0,,Bir saniye, Lawren!
+Dialogue: 9,0:05:52.41,0:05:54.48,main,Cecilia,0,0,0,,İşte. Şimdi iyisin.
+Dialogue: 9,0:05:54.48,0:05:56.17,main,Lawrence,0,0,0,,Teşekkür ederim.
+Dialogue: 9,0:05:58.85,0:06:01.88,main,Abel,0,0,0,,Ah, doğru. Bugün yeni ay.
+Dialogue: 9,0:06:01.88,0:06:02.67,main,Lawrence,0,0,0,,Ha?
+Dialogue: 9,0:06:02.94,0:06:05.00,main,Abel,0,0,0,,Bir şey değil. Boş ver.
+Dialogue: 9,0:06:15.00,0:06:17.68,main,Abel,0,0,0,,Bu gerçekten anıları canlandırıyor!
+Dialogue: 9,0:06:17.68,0:06:20.85,main,Cecilia,0,0,0,,Yani daha önce burada bulundun, Abel?
+Dialogue: 9,0:06:20.85,0:06:21.68,main,Abel,0,0,0,,Evet.
+Dialogue: 9,0:06:21.68,0:06:23.95,main,Lawrence,0,0,0,,İlahiyat okulu yurtlarından uzaktı,
+Dialogue: 9,0:06:23.95,0:06:26.23,main,Lawrence,0,0,0,,o yüzden gelir ve\Nburada geceyi geçirirdi.
+Dialogue: 9,0:06:26.23,0:06:29.04,main,Abel,0,0,0,,Çok hareketliydi. Sürekli\Nazarlanırdık, değil mi?
+Dialogue: 9,0:06:29.04,0:06:31.86,main,Lawrence,0,0,0,,Çünkü senin enerjin fazlasıyla yüksekti.
+Dialogue: 9,0:06:33.22,0:06:34.87,main,Abel,0,0,0,,Ne kadar belli oluyorsun.
+Dialogue: 9,0:06:35.07,0:06:38.87,main,Lawrence,0,0,0,,Her yer biraz tozlu\Ngörünüyor. Temizlemeliyim.
+Dialogue: 9,0:06:38.87,0:06:44.08,main,Abel,0,0,0,,Bu kadar belli olmasına rağmen\Nhâlâ fark etmiyor... öyle mi?
+Dialogue: 9,0:06:44.08,0:06:48.39,main,Cecilia,0,0,0,,Sanırım kendini\Nbir anne yerine koyuyor.
+Dialogue: 9,0:06:48.39,0:06:52.23,main,Abel,0,0,0,,Bir şeyleri fark etmemek\Nonun kötü huylarından biri.
+Dialogue: 9,0:06:52.23,0:06:55.62,main,Abel,0,0,0,,Ona yardım etmek için bu kadar\Nşey yapıyorsun.
+Dialogue: 9,0:06:56.26,0:06:57.54,main,Cecilia,0,0,0,,Abel?
+Dialogue: 9,0:06:57.54,0:07:01.84,main,Abel,0,0,0,,Peki o zaman! Ben biraz\Nyürüyüşe çıkayım.
+Dialogue: 9,0:07:02.76,0:07:06.45,main,Lawrence,0,0,0,,Azize Hanım, her zamanki gibi\Ntembellik edebilirsiniz.
+Dialogue: 9,0:07:06.45,0:07:09.48,main,Cecilia,0,0,0,,Lawren! O bir sır!
+Dialogue: 9,0:07:09.48,0:07:11.66,main,Lawrence,0,0,0,,Bu kadar telaşlanmanıza gerek yok.
+Dialogue: 9,0:07:11.66,0:07:15.88,main,Lawrence,0,0,0,,O zaman Azize Hanım, tembellik\Netmekten kaçınacak mısınız?
+Dialogue: 9,0:07:16.65,0:07:20.36,main,Cecilia,0,0,0,,Bu zor olacak.\NGerçekten yayılmak istiyorum.
+Dialogue: 9,0:07:20.36,0:07:21.96,main,Lawrence,0,0,0,,Çok dürüstsünüz, değil mi?
+Dialogue: 9,0:07:21.96,0:07:23.96,main,Cecilia,0,0,0,,Ne ikilem.
+Dialogue: 9,0:07:23.96,0:07:26.19,main,Cecilia,0,0,0,,Ne yapmalıyım?
+Dialogue: 9,0:07:26.19,0:07:28.18,main,Cecilia,0,0,0,,Sonuçta yalan söyleyemem.
+Dialogue: 9,0:07:28.44,0:07:30.43,main,Lawrence,0,0,0,,Başka yol yok.
+Dialogue: 9,0:07:30.43,0:07:33.36,main,Lawrence,0,0,0,,Şimdilik Abel'ın olmadığı\Nzamanları kollamalısınız.
+Dialogue: 9,0:07:33.36,0:07:34.84,main,Cecilia,0,0,0,,Sanırım öyle.
+Dialogue: 9,0:07:35.06,0:07:39.80,main,Lawrence,0,0,0,,Ama başkalarının sizi nasıl gördüğünü\Nbu kadar önemsemeniz alışılmadık.
+Dialogue: 9,0:07:40.28,0:07:42.82,main,Lawrence,0,0,0,,Benim yanımda hiç böyle değilsiniz.
+Dialogue: 9,0:07:45.18,0:07:47.06,main,Lawrence,0,0,0,,Ne-Ne yapıyorsunuz?
+Dialogue: 9,0:07:47.63,0:07:52.32,main,Cecilia,0,0,0,,Senin beni nasıl gördüğünü\Nönemsemeden tembellik edebilmemin sebebi...
+Dialogue: 9,0:07:52.66,0:07:55.90,main,Cecilia,0,0,0,,beni böyle kabul etmen, Lawren.
+Dialogue: 9,0:07:57.05,0:08:00.84,main,Cecilia,0,0,0,,Diğerlerinden çekindiğimi söyleyemem.
+Dialogue: 9,0:08:01.11,0:08:04.80,main,Cecilia,0,0,0,,Sen sadece özelsin.
+Dialogue: 9,0:08:04.80,0:08:07.80,main,Lawrence,0,0,0,,Şey, bir süredir\Nbirlikte yaşıyoruz.
+Dialogue: 9,0:08:07.80,0:08:09.80,main,Cecilia,0,0,0,,Evet, doğru.
+Dialogue: 9,0:08:09.80,0:08:12.09,main,Lawrence,0,0,0,,Ama biraz daha iyi hissediyorum.
+Dialogue: 9,0:08:12.09,0:08:13.05,main,Cecilia,0,0,0,,Ne?
+Dialogue: 9,0:08:13.05,0:08:15.19,main,Lawrence,0,0,0,,Arkadaşım olsa da,
+Dialogue: 9,0:08:15.19,0:08:18.38,main,Lawrence,0,0,0,,yeni tanıştığın birinin önünde\Ntembellik etseydin,
+Dialogue: 9,0:08:18.38,0:08:21.23,main,Lawrence,0,0,0,,sadece benim bildiğim\Nyönlerin azalırdı,
+Dialogue: 9,0:08:21.23,0:08:22.90,main,Lawrence,0,0,0,,ve bu beni üzerdi.
+Dialogue: 9,0:08:24.48,0:08:27.23,main,Lawrence,0,0,0,,Ah, hazırlık yapmam gerek.
+Dialogue: 9,0:08:27.23,0:08:29.10,main,Lawrence,0,0,0,,Affedersiniz, Azize Hanım.
+Dialogue: 9,0:08:59.85,0:09:01.52,main,Lawrence,0,0,0,,Gel de yardım et!
+Dialogue: 9,0:09:01.52,0:09:04.02,main,Abel,0,0,0,,O kadar dalmıştın ki\Ngerek yok sandım.
+Dialogue: 9,0:09:06.72,0:09:09.92,main,Lawrence,0,0,0,,Peki, toparlayalım mı?
+Dialogue: 9,0:09:09.92,0:09:12.15,main,Lawrence,0,0,0,,Abel, dışarıdaki turu\Nsen yapar mısın?
+Dialogue: 9,0:09:12.15,0:09:13.82,main,Abel,0,0,0,,Şu an meşgulüm.
+Dialogue: 9,0:09:13.82,0:09:14.96,main,Lawrence,0,0,0,,Git.
+Dialogue: 9,0:09:14.96,0:09:16.53,main,Abel,0,0,0,,Tamam.
+Dialogue: 9,0:09:20.85,0:09:22.61,main,Lawrence,0,0,0,,Ne-Ne oldu?
+Dialogue: 9,0:09:22.61,0:09:26.48,main,Cecilia,0,0,0,,Arkadaşına biraz\Nkaba davrandığını düşünüyordum.
+Dialogue: 9,0:09:27.73,0:09:30.10,main,Lawrence,0,0,0,,Bu dedemin etkisi.
+Dialogue: 9,0:09:30.10,0:09:32.54,main,Lawrence,0,0,0,,Kaba konuşan biriydi.
+Dialogue: 9,0:09:34.68,0:09:36.18,main,Cecilia,0,0,0,,Lawren?
+Dialogue: 9,0:09:36.18,0:09:37.68,main,Cecilia,0,0,0,,İyi misin?
+Dialogue: 9,0:09:38.04,0:09:40.48,main,Lawrence,0,0,0,,Özür dilerim. Başım ağrıyor.
+Dialogue: 9,0:09:40.48,0:09:42.56,main,Lawrence,0,0,0,,Biraz uzanacağım.
+Dialogue: 9,0:09:49.78,0:09:52.10,main,Abel,0,0,0,,Tur bitti!
+Dialogue: 9,0:09:52.10,0:09:53.57,main,Abel,0,0,0,,Dur, bu da ne?
+Dialogue: 9,0:09:53.57,0:09:55.61,main,Cecilia,0,0,0,,Abel! Çok kötü!
+Dialogue: 9,0:09:55.61,0:09:58.95,main,Cecilia,0,0,0,,Lawren'in durumu birden...\NNe yapacağız?
+Dialogue: 9,0:09:58.95,0:10:01.12,main,Abel,0,0,0,,Ah, yoksa bu...
+Dialogue: 9,0:10:01.76,0:10:03.33,main,Abel,0,0,0,,Azize Cecilia,
+Dialogue: 9,0:10:03.33,0:10:05.36,main,Abel,0,0,0,,çok fazla ilahi koruma mı\Nbahşettiniz?
+Dialogue: 9,0:10:10.98,0:10:13.12,main,Abel,0,0,0,,Demek böyle alıyorsunuz.
+Dialogue: 9,0:10:16.64,0:10:18.56,main,Lawrence,0,0,0,,Daha iyiyim.
+Dialogue: 9,0:10:18.56,0:10:21.18,main,Cecilia,0,0,0,,Lawren! Çok sevindim!
+Dialogue: 9,0:10:21.18,0:10:23.06,main,Cecilia,0,0,0,,Ah! Lawren...!
+Dialogue: 9,0:10:23.06,0:10:25.84,main,Abel,0,0,0,,Bu seferki fiziksel bir acıydı.
+Dialogue: 9,0:10:26.72,0:10:28.68,main,Abel,0,0,0,,Bir şey söylemediğim için özür dilerim.
+Dialogue: 9,0:10:28.68,0:10:31.77,main,Abel,0,0,0,,Ben hep türlü türlü\Nşeyler görebiliyordum.
+Dialogue: 9,0:10:31.77,0:10:33.93,main,Cecilia,0,0,0,,Bu yüzden çok fazla ilahi koruma
+Dialogue: 9,0:10:33.93,0:10:36.75,main,Cecilia,0,0,0,,bahşettiğimi görebildiniz, değil mi?
+Dialogue: 9,0:10:36.75,0:10:40.28,main,Abel,0,0,0,,Hayır, hayır. Bu görebildiğimden çok fazla.
+Dialogue: 9,0:10:40.68,0:10:43.15,main,Abel,0,0,0,,Yine de orada olduğunu biliyordum.
+Dialogue: 9,0:10:43.55,0:10:45.34,main,Abel,0,0,0,,Normal şartlarda bile,
+Dialogue: 9,0:10:45.65,0:10:52.16,main,Abel,0,0,0,,birisi onu herkesten\Nçok koruyor.
+Dialogue: 9,0:10:53.32,0:10:54.88,main,Abel,0,0,0,,Azize Cecilia,
+Dialogue: 9,0:10:54.88,0:10:58.17,main,Abel,0,0,0,,Lawren'ın üzerinde kaç kat\Nkoruma var?
+Dialogue: 9,0:10:58.84,0:11:02.49,main,Cecilia,0,0,0,,Sayılamayacak kadar çok.
+Dialogue: 9,0:11:03.79,0:11:07.11,main,Cecilia,0,0,0,,Biz tanışmadan önce Lawren'a\Nbir şey olmaması,
+Dialogue: 9,0:11:07.11,0:11:09.11,main,Cecilia,0,0,0,,senin sayendeydi, değil mi?
+Dialogue: 9,0:11:09.11,0:11:10.95,main,Abel,0,0,0,,Abartıyorsunuz.
+Dialogue: 9,0:11:10.95,0:11:15.57,main,Abel,0,0,0,,Ben sadece bir acemi bilgisiyle\Nyapılabilecekleri yaptım.
+Dialogue: 9,0:11:16.46,0:11:20.40,main,Abel,0,0,0,,Ve tüm bunlar arasında, bugün gibi\Nyeni ay günleri özellikle...
+Dialogue: 9,0:11:21.23,0:11:26.36,main,Cecilia,0,0,0,,Ay ışığı olmayan gecelerde\Nkötü şeyler daha kolay çekilir.
+Dialogue: 9,0:11:26.36,0:11:30.24,main,Abel,0,0,0,,Yine de tam tersi şeyler de\N ona çekiliyor.
+Dialogue: 9,0:11:30.54,0:11:32.74,main,Abel,0,0,0,,Hem melekler hem şeytanlar...
+Dialogue: 9,0:11:32.74,0:11:35.23,main,Abel,0,0,0,,Galiba böyle adamlar onların tipi.
+Dialogue: 9,0:11:40.28,0:11:42.08,main,Lawrence,0,0,0,,Dinliyor musun?
+Dialogue: 9,0:11:42.08,0:11:43.13,main,Abel,0,0,0,,Özür dilerim.
+Dialogue: 9,0:13:07.16,0:13:10.15,main,Abel,0,0,0,,Melekler ve şeytanlar, periler gibi,
+Dialogue: 9,0:13:10.15,0:13:13.52,main,Abel,0,0,0,,gözle görülemez.\NOnları kendine çekmeye yatkın.
+Dialogue: 9,0:13:13.78,0:13:17.26,main,Abel,0,0,0,,Ve bundan tamamen habersiz\Nolması en büyük sorun.
+Dialogue: 9,0:13:17.26,0:13:22.77,main,Cecilia,0,0,0,,Göremediği şeyleri çekmek\Nsadece Lawren'a yük oluyor.
+Dialogue: 9,0:13:22.77,0:13:27.87,main,Cecilia,0,0,0,,Onları görebilseydi,\Nonlara karşı önlem alınabilirdi.
+Dialogue: 9,0:13:27.87,0:13:32.91,main,Cecilia,0,0,0,,Köyden biri onu çağırırsa,\Ngece bile dışarı çıkar.
+Dialogue: 9,0:13:33.20,0:13:36.67,main,Cecilia,0,0,0,,Lawren'ın odasına kötülüğü\Nuzak tutmak için sardunya koysam bile...
+Dialogue: 9,0:13:40.80,0:13:44.00,main,Abel,0,0,0,,Ve böylece sardunyalar\Noraya konmuş.
+Dialogue: 9,0:13:46.76,0:13:48.78,main,Abel,0,0,0,,Madem onu sen koruyorsun,\NAzize Cecilia,
+Dialogue: 9,0:13:48.78,0:13:50.38,main,Abel,0,0,0,,endişelenmeye gerek yok, değil mi?
+Dialogue: 9,0:13:50.38,0:13:52.73,main,Cecilia,0,0,0,,Hiç de öyle değil.
+Dialogue: 9,0:13:52.73,0:13:56.93,main,Cecilia,0,0,0,,Lawren'ı koruyan şey ne kadar\Nçoksa o kadar rahatlıyorum.
+Dialogue: 9,0:13:56.93,0:14:00.46,main,Abel,0,0,0,,Azize Cecilia, burası senin\Nkutsal alanın olsa bile,
+Dialogue: 9,0:14:00.46,0:14:03.37,main,Abel,0,0,0,,üstüne bir de ilahi korumanı\Neklemişsin, değil mi?
+Dialogue: 9,0:14:04.30,0:14:06.82,main,Abel,0,0,0,,Duyduğuma göre birine çok fazla
+Dialogue: 9,0:14:06.82,0:14:10.65,main,Abel,0,0,0,,bu tür güç bahşetmek\Nzararlı olabilirmiş, ama...
+Dialogue: 9,0:14:10.65,0:14:12.78,main,Cecilia,0,0,0,,Çok özür dilerim!
+Dialogue: 9,0:14:14.16,0:14:17.13,main,Cecilia,0,0,0,,Lawren'ı korumak isterken\Nona acı verdim.
+Dialogue: 9,0:14:17.13,0:14:18.81,main,Cecilia,0,0,0,,Bir azize olarak başarısızım!
+Dialogue: 9,0:14:18.81,0:14:20.17,main,Abel,0,0,0,,Sakin ol, sakin ol.
+Dialogue: 9,0:14:20.17,0:14:23.56,main,Cecilia,0,0,0,,Baştan daha fazla gücüm olsaydı,
+Dialogue: 9,0:14:23.56,0:14:26.88,main,Cecilia,0,0,0,,güvenli alanı daha da genişletebilirdim.
+Dialogue: 9,0:14:26.88,0:14:29.61,main,Cecilia,0,0,0,,Keşke Lawren'ın dolaştığı alanın
+Dialogue: 9,0:14:29.61,0:14:31.98,main,Cecilia,0,0,0,,tamamını kutsal toprağım yapabilseydim.
+Dialogue: 9,0:14:38.64,0:14:41.92,main,Abel,0,0,0,,Bunların hiçbirini Lawren'la\Nkonuşmadın, değil mi?
+Dialogue: 9,0:14:41.92,0:14:42.94,main,Cecilia,0,0,0,,Hayır.
+Dialogue: 9,0:14:42.94,0:14:47.16,main,Cecilia,0,0,0,,Sonuçta farklı olduğunu\Nfark etmek korkutucudur.
+Dialogue: 9,0:14:47.16,0:14:50.20,main,Abel,0,0,0,,Ben de onunla bunu\Nkonuşmadım, seni suçlamıyorum.
+Dialogue: 9,0:14:50.50,0:14:53.60,main,Abel,0,0,0,,Düşününce, kilisede de\Nbir şey var, değil mi?
+Dialogue: 9,0:14:53.60,0:14:54.46,main,Cecilia,0,0,0,,Evet.
+Dialogue: 9,0:14:54.46,0:14:58.28,main,Cecilia,0,0,0,,Dört melek ve bir sürü peri var.
+Dialogue: 9,0:14:58.28,0:15:01.27,main,Abel,0,0,0,,Ona yapışırlarsa\Nsağlığı yine bozulur, değil mi?
+Dialogue: 9,0:15:01.27,0:15:02.28,main,Cecilia,0,0,0,,Evet.
+Dialogue: 9,0:15:02.28,0:15:06.08,main,Cecilia,0,0,0,,Melekler Lawren'a çekiliyor,
+Dialogue: 9,0:15:06.08,0:15:08.68,main,Cecilia,0,0,0,,bu yüzden sık sık onun için\Nonlarla rekabet ediyorum.
+Dialogue: 9,0:15:10.30,0:15:13.49,main,Cecilia,0,0,0,,Yani ziyaret sebebin,
+Dialogue: 9,0:15:13.49,0:15:16.32,main,Cecilia,0,0,0,,Lawren'ın iyi olduğundan\Nemin olmaktı, değil mi?
+Dialogue: 9,0:15:16.32,0:15:17.72,main,Abel,0,0,0,,Doğru.
+Dialogue: 9,0:15:17.72,0:15:22.16,main,Abel,0,0,0,,Mektuplarında sağlığından\Nbahsetmemişti, ben de nasıl olduğunu merak ettim.
+Dialogue: 9,0:15:22.16,0:15:23.83,main,Cecilia,0,0,0,,Benimle ilgili bir şey var mıydı?
+Dialogue: 9,0:15:23.83,0:15:25.35,main,Abel,0,0,0,,Seninle ilgili yazmamıştı.
+Dialogue: 9,0:15:25.35,0:15:26.15,main,Cecilia,0,0,0,,Ne?
+Dialogue: 9,0:15:26.15,0:15:29.19,main,Abel,0,0,0,,Daha doğrusu, birlikte yaşadığı\Nbiri hakkında yazmıştı.
+Dialogue: 9,0:15:29.19,0:15:31.30,main,Abel,0,0,0,,Sabahları uyanmadıklarını,
+Dialogue: 9,0:15:31.30,0:15:34.26,main,Abel,0,0,0,,ve tembellik edip ona türlü\Nişler yaptırdıklarını yazmıştı.
+Dialogue: 9,0:15:34.26,0:15:35.92,main,Cecilia,0,0,0,,Lawren!
+Dialogue: 9,0:15:36.84,0:15:38.32,main,Abel,0,0,0,,Ah, ama...
+Dialogue: 9,0:15:39.28,0:15:44.32,main,Abel,0,0,0,,onlar sayesinde her günün farklı\Nbir renk olduğunu, bunun eğlenceli olduğunu söyledi.
+Dialogue: 9,0:15:46.93,0:15:50.24,main,Abel,0,0,0,,Böyle şeyler yazdığı için\Nçok endişelenmedim,
+Dialogue: 9,0:15:50.24,0:15:52.63,main,Abel,0,0,0,,ve zaten endişelerim\Ngereksizmiş gibi görünüyor.
+Dialogue: 9,0:15:52.63,0:15:54.63,main,Abel,0,0,0,,Benim gibi bir aptal yerine,
+Dialogue: 9,0:15:54.63,0:15:57.34,main,Abel,0,0,0,,yanında sen varsın,\NAzize Cecilia.
+Dialogue: 9,0:15:57.34,0:15:59.72,main,Abel,0,0,0,,Lawren tamamen güvende olacak.
+Dialogue: 9,0:15:59.72,0:16:02.06,main,Cecilia,0,0,0,,Böyle şeyler söylememelisin.
+Dialogue: 9,0:16:02.95,0:16:04.50,main,Abel,0,0,0,,Azize Cecilia?
+Dialogue: 9,0:16:04.77,0:16:10.19,main,Cecilia,0,0,0,,Lawren'ın doğası sıra dışı,\Nbu yüzden onu doğru idare etmek zor.
+Dialogue: 9,0:16:10.19,0:16:14.98,main,Cecilia,0,0,0,,Yine de sıradan birinin\Nbunu başarabilmiş olması...
+Dialogue: 9,0:16:14.98,0:16:18.70,main,Cecilia,0,0,0,,Çok çaba ve yetenek\Ngerektirmiş olmalı.
+Dialogue: 9,0:16:19.13,0:16:23.72,main,Cecilia,0,0,0,,Sen onun yanında olmasaydın,\NLawren şimdi burada olmazdı.
+Dialogue: 9,0:16:25.01,0:16:28.63,main,Cecilia,0,0,0,,Abel, sen harika bir insansın.
+Dialogue: 9,0:16:30.44,0:16:34.64,main,Cecilia,0,0,0,,Delice olsan, davranışların\Nanlamsız olsa,
+Dialogue: 9,0:16:34.64,0:16:37.32,main,Cecilia,0,0,0,,ve hemen kibirlensen bile... yine de.
+Dialogue: 9,0:16:37.32,0:16:40.81,main,Abel,0,0,0,,Kulağa iltifat gibi geliyor,\Nama beni gömüyorsun, değil mi?
+Dialogue: 9,0:16:40.80,0:16:42.44,main,Cecilia,0,0,0,,Niyetim bu değildi!
+Dialogue: 9,0:16:42.44,0:16:46.30,main,Cecilia,0,0,0,,Seni kötülemiyordum!\NSadece düşündüğümü söylüyordum! Dur...
+Dialogue: 9,0:16:48.92,0:16:51.56,main,Cecilia,0,0,0,,Her halükârda, bu hiç adil değil, Abel!
+Dialogue: 9,0:16:51.56,0:16:54.53,main,Cecilia,0,0,0,,Ben de Lawren'ı ilahiyat\Ngünlerinde görmek istiyorum!
+Dialogue: 9,0:16:54.53,0:16:56.79,main,Abel,0,0,0,,Birkaç fotoğrafım var.
+Dialogue: 9,0:16:56.79,0:16:58.33,main,Abel,0,0,0,,Bir dahaki sefere getiririm.
+Dialogue: 9,0:16:58.33,0:17:01.08,main,Cecilia,0,0,0,,Evet, getirmelisin!
+Dialogue: 9,0:17:09.75,0:17:12.59,main,Abel,0,0,0,,Azize Cecilia, yemek yapabilir misin?
+Dialogue: 9,0:17:12.59,0:17:13.80,main,Cecilia,0,0,0,,Hayır.
+Dialogue: 9,0:17:19.80,0:17:22.32,main,Lawrence,0,0,0,,Azize Hanım? Abel?
+Dialogue: 9,0:17:25.71,0:17:28.95,main,Cecilia,0,0,0,,Lawren, senin yerine bir şeyler\Npişirmeyi denedik.
+Dialogue: 9,0:17:28.95,0:17:30.48,main,Lawrence,0,0,0,,Siz mi, Azize Hanım?
+Dialogue: 9,0:17:30.71,0:17:35.32,main,Cecilia,0,0,0,,Varlığının benim için ne kadar\Nönemli olduğunu bir kez daha anladım.
+Dialogue: 9,0:17:35.92,0:17:37.06,main,Abel,0,0,0,,Buyur.
+Dialogue: 9,0:17:37.69,0:17:40.03,main,Cecilia,0,0,0,,Abel!
+Dialogue: 9,0:17:40.03,0:17:43.69,main,Cecilia,0,0,0,,B-Bu, şey... G-Görünüşü bile\Ngüzel değil!
+Dialogue: 9,0:17:43.69,0:17:46.04,main,Lawrence,0,0,0,,Herkesin ilk denemesi böyledir.
+Dialogue: 9,0:17:46.58,0:17:48.30,main,Lawrence,0,0,0,,Minnetle kabul ediyorum.
+Dialogue: 9,0:17:57.42,0:17:59.86,main,Lawrence,0,0,0,,Bu da ne? Çok lezzetli!
+Dialogue: 9,0:17:59.86,0:18:02.02,main,Cecilia,0,0,0,,G-Gerçekten mi?
+Dialogue: 9,0:18:09.76,0:18:11.60,main,Lawrence,0,0,0,,Bu tehlikeli, Abel!
+Dialogue: 9,0:18:11.60,0:18:13.52,main,Lawrence,0,0,0,,Azize Hanım, iyi misiniz?
+Dialogue: 9,0:18:15.51,0:18:18.03,main,Cecilia,0,0,0,,B-Ben oldukça iyiyim.
+Dialogue: 9,0:18:18.03,0:18:20.28,main,Lawrence,0,0,0,,Bir bakayım, ne olur ne olmaz!
+Dialogue: 9,0:18:20.28,0:18:22.41,main,Cecilia,0,0,0,,İ-İyiyim!
+Dialogue: 9,0:18:22.41,0:18:24.79,main,Lawrence,0,0,0,,Ya dudağınız kesildiyse?
+Dialogue: 9,0:18:24.79,0:18:26.86,main,Cecilia,0,0,0,,K-Kesilmedi!
+Dialogue: 9,0:18:26.86,0:18:29.88,main,Cecilia; background,0,0,0,,Sana kesilmedi diyorum!
+Dialogue: 9,0:18:29.88,0:18:32.32,main,Cecilia,0,0,0,,Ü-Üstümü değiştirmeye gidiyorum!
+Dialogue: 9,0:18:34.48,0:18:36.24,main,Lawrence,0,0,0,,Şimdi, Abel.
+Dialogue: 9,0:18:37.01,0:18:40.13,main,Lawrence,0,0,0,,Buraya gerçekte neden geldin?
+Dialogue: 9,0:18:41.03,0:18:44.38,main,Abel,0,0,0,,Yani benden şüpheleniyorsun, ha?
+Dialogue: 9,0:18:44.38,0:18:46.10,main,Abel,0,0,0,,Endişelenme.
+Dialogue: 9,0:18:46.10,0:18:50.14,main,Abel,0,0,0,,Kötü niyetli soylulara\NAzize Cecilia'dan bahsetmem.
+Dialogue: 9,0:18:50.49,0:18:52.96,main,Abel,0,0,0,,Onu ifşa etmek gibi\Naceleci bir planım da yok.
+Dialogue: 9,0:18:52.96,0:18:55.40,main,Abel,0,0,0,,Sonuçta azizenin etkisi
+Dialogue: 9,0:18:55.40,0:18:57.40,main,Abel,0,0,0,,sandığımızdan çok daha büyük, değil mi?
+Dialogue: 9,0:18:58.92,0:19:01.66,main,Lawrence,0,0,0,,Haklısın. Özür dilerim.
+Dialogue: 9,0:19:01.97,0:19:04.36,main,Lawrence,0,0,0,,Belki bugün baş ağrım\Nçok kötü olduğu için,
+Dialogue: 9,0:19:04.36,0:19:06.20,main,Lawrence,0,0,0,,nedense pek rahatlayamıyorum.
+Dialogue: 9,0:19:06.75,0:19:08.34,main,Lawrence,0,0,0,,Hey, Abel?
+Dialogue: 9,0:19:08.34,0:19:10.23,main,Lawrence,0,0,0,,Bugün gibi kötü hissettiğim günlerde,
+Dialogue: 9,0:19:10.23,0:19:13.91,main,Lawrence,0,0,0,,azize yanımda kalırsa\Nhemen iyileşiyorum.
+Dialogue: 9,0:19:13.91,0:19:16.08,main,Lawrence,0,0,0,,Düşününce,
+Dialogue: 9,0:19:16.44,0:19:20.22,main,Lawrence,0,0,0,,ilahiyat okulunda seninle vakit\Ngeçirdiğimde de aynısı oluyordu.
+Dialogue: 9,0:19:20.22,0:19:23.12,main,Lawrence,0,0,0,,Azizeyle bir bağlantın mı var?
+Dialogue: 9,0:19:23.49,0:19:25.55,main,Abel,0,0,0,,Hayır, bu sadece tesadüf, değil mi?
+Dialogue: 9,0:19:25.55,0:19:27.46,main,Lawrence,0,0,0,,Öyle mi?
+Dialogue: 9,0:19:27.46,0:19:30.22,main,Lawrence,0,0,0,,Sizin benim için bir şeyler\Nyapmanıza neden oluyorsam kötü hissederim.
+Dialogue: 9,0:19:34.16,0:19:38.04,main,Abel,0,0,0,,İnsanları koruyacak güce\Nsahip olmam imkânsız, değil mi?
+Dialogue: 9,0:19:38.04,0:19:39.89,main,Abel,0,0,0,,Bir de daha önemli bir soru var.
+Dialogue: 9,0:19:39.89,0:19:42.39,main,Abel,0,0,0,,Azize Cecilia hakkında ne düşünüyorsun?
+Dialogue: 9,0:19:42.39,0:19:43.36,main,Lawrence,0,0,0,,Ne?
+Dialogue: 9,0:19:43.36,0:19:46.83,main,Lawrence,0,0,0,,Şey... Ona saygı duyuyorum.
+Dialogue: 9,0:19:46.83,0:19:48.56,main,Lawrence,0,0,0,,Sabah insanı değil.
+Dialogue: 9,0:19:48.56,0:19:51.22,main,Lawrence,0,0,0,,Kimse bakmıyorken tembellik ediyor.
+Dialogue: 9,0:19:51.22,0:19:54.71,main,Lawrence,0,0,0,,Ruh hali sık sık iyiden kötüye\Ngidip geliyor.
+Dialogue: 9,0:19:54.71,0:19:58.12,main,Lawrence,0,0,0,,Ama bugün yaptığı gibi\Nçok çabalayan bir yanı da var.
+Dialogue: 9,0:19:58.12,0:20:00.88,main,Lawrence,0,0,0,,Başkaları için çalışan\nnazik bir insan.
+Dialogue: 9,0:20:00.88,0:20:03.08,main,Lawrence,0,0,0,,Ona saygı duyuyor ve güveniyorum.
+Dialogue: 9,0:20:03.08,0:20:04.47,main,Lawrence,0,0,0,,Bu çok doğal, değil mi?
+Dialogue: 9,0:20:06.48,0:20:07.98,main,Abel,0,0,0,,Anladım.
+Dialogue: 9,0:20:10.23,0:20:11.38,main,Cecilia,0,0,0,,Lawren?
+Dialogue: 9,0:20:11.38,0:20:12.99,main,Lawrence,0,0,0,,Bir sorun mu var?
+Dialogue: 9,0:20:12.99,0:20:15.72,main,Cecilia,0,0,0,,Odamda sekiz bacaklı bir ziyaretçi var.
+Dialogue: 9,0:20:15.72,0:20:18.90,main,Lawrence,0,0,0,,Bir örümcek? Gidip kovayım.
+Dialogue: 9,0:20:18.90,0:20:22.24,main,Lawrence,0,0,0,,Bu arada Abel, sen\Nmutfağı topla.
+Dialogue: 9,0:20:22.24,0:20:23.32,main,Abel,0,0,0,,Ne?
+Dialogue: 9,0:20:23.32,0:20:27.88,main,Cecilia,0,0,0,,Hadi acele et, Lawren!\NYoksa saklanabilir!
+Dialogue: 9,0:20:51.40,0:20:53.60,main,Cecilia,0,0,0,,L-Lawren!
+Dialogue: 9,0:20:53.60,0:20:55.80,main,Cecilia,0,0,0,,Onu buldum! Bu o!
+Dialogue: 9,0:20:55.80,0:20:58.36,main,Lawrence,0,0,0,,Ah, evet. Onu kovayım.
+Dialogue: 9,0:21:00.15,0:21:02.30,main,Lawrence,0,0,0,,İşte, artık sorun yok.
+Dialogue: 9,0:21:02.79,0:21:06.28,main,Cecilia,0,0,0,,Teşekkür ederim... bunun için ve benim için yemek yaptığın için.
+Dialogue: 9,0:21:06.76,0:21:08.53,main,Cecilia,0,0,0,,Görünüşe göre ben...
+Dialogue: 9,0:21:09.38,0:21:12.88,main,Cecilia,0,0,0,,sensiz yaşayamıyorum, Lawren.
+Dialogue: 9,0:21:34.31,0:21:37.42,main,Cecilia,0,0,0,,Yani sen de böyle hatalar\Nyapıyorsun, Lawren?
+Dialogue: 9,0:21:37.42,0:21:39.04,main,Cecilia,0,0,0,,Benimle aynı.
+Dialogue: 9,0:23:25.86,0:23:27.52,main,Abel,0,0,0,,Toparlan.
+Dialogue: 9,0:23:29.69,0:23:30.35,main,Abel,0,0,0,,Eyvah.
+Dialogue: 9,0:23:32.07,0:23:32.88,main,Abel,0,0,0,,Eyvah.
+Dialogue: 9,0:23:36.40,0:23:39.21,main,Abel,0,0,0,,Ev işi gerçekten zormuş, değil mi?
+Dialogue: 9,0:04:45.92,0:04:47.16,top,Cecilia,0,0,0,,Elbette!
+Dialogue: 9,0:16:44.33,0:16:48.51,top,Abel,0,0,0,,Azize Cecilia gerçekten bir azize.
+Dialogue: 0,0:02:27.45,0:02:28.91,sign_note,text,0,0,0,,{\bord2\c&H574DF2&\3c&H382CA8&\fad(400,1)\move(1772.391,514.311,1757.304,466.884)}Kıskandım...
+Dialogue: 0,0:06:32.03,0:06:34.87,sign_note,text,0,0,0,,{\bord2\3c&H3332A1&\c&H5B57FB&\fad(400,1)\move(211.179,623.175,175.623,457.188)}Kıskandım...
+Dialogue: 0,0:11:36.96,0:11:40.01,sign_note,text,0,0,0,,{\fad(2000,0)\bord0\blur0.5\fs60\pos(1312.323,748.203)}O nota
+Dialogue: 0,0:11:41.05,0:11:44.01,sign_note,text,0,0,0,,{\fad(2000,0)\bord0\blur0.5\fs57\pos(1265.994,217.902)}Lawren'ın bu yönünü ilk kez görüyorum.
+Dialogue: 0,0:15:05.96,0:15:06.18,sign_note,text,0,0,0,,{\fad(150,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(304.4,385.51)}Haksızlık\N\N\N\N\N\h\h\h\h\h\h\hHaksızlık
+Dialogue: 0,0:15:06.18,0:15:06.26,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
+Dialogue: 0,0:15:06.26,0:15:06.59,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
+Dialogue: 0,0:15:06.59,0:15:06.93,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
+Dialogue: 0,0:15:06.93,0:15:07.26,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
+Dialogue: 0,0:15:07.26,0:15:07.55,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
+Dialogue: 0,0:15:07.55,0:15:07.85,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
+Dialogue: 0,0:15:07.85,0:15:08.10,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
+Dialogue: 0,0:15:08.10,0:15:08.43,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
+Dialogue: 0,0:15:08.43,0:15:08.80,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
+Dialogue: 0,0:15:08.80,0:15:09.14,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
+Dialogue: 0,0:15:09.14,0:15:09.47,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
+Dialogue: 0,0:15:09.47,0:15:09.76,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
+Dialogue: 0,0:15:09.76,0:15:10.10,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
+Dialogue: 0,0:15:10.10,0:15:10.30,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
+Dialogue: 0,0:15:06.26,0:15:06.59,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
+Dialogue: 0,0:15:06.93,0:15:07.26,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
+Dialogue: 0,0:15:07.55,0:15:07.85,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
+Dialogue: 0,0:15:08.10,0:15:08.43,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
+Dialogue: 0,0:15:08.80,0:15:09.14,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
+Dialogue: 0,0:15:09.47,0:15:09.76,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
+Dialogue: 0,0:15:10.10,0:15:10.30,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
+Dialogue: 0,0:15:06.18,0:15:06.26,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
+Dialogue: 0,0:15:06.59,0:15:06.93,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
+Dialogue: 0,0:15:07.26,0:15:07.55,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
+Dialogue: 0,0:15:07.85,0:15:08.10,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
+Dialogue: 0,0:15:08.43,0:15:08.80,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
+Dialogue: 0,0:15:09.14,0:15:09.47,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
+Dialogue: 0,0:15:09.76,0:15:10.10,sign_note,text,0,0,0,,{\fad(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
+Dialogue: 0,0:14:31.64,0:14:33.89,signs_brown,text,0,0,0,,{\fs50\blur0.5\bord0\pos(1199.73,91.17)}Bütün köy
