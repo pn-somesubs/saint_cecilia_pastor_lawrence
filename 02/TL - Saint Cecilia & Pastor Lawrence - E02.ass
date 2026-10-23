@@ -12,23 +12,14 @@ LayoutResY: 1080
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: main,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,2,225,225,60,1
-Style: Default,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,2,60,60,69,1
 Style: top,Gandhi Sans,75,&H00FFFFFF,&H000000FF,&H00000000,&HA0000000,-1,0,0,0,100,100,0,0,1,3.6,1.5,8,225,225,60,1
-Style: italics,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,2,60,60,69,0
-Style: italicstop,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,8,60,60,69,0
-Style: flashback,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,2,60,60,69,1
-Style: flashback italics,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,2,60,60,69,1
-Style: flashbacktop,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3.9,0,8,60,60,69,0
-Style: flashbackitalicstop,Roboto Medium,78,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3.9,0,8,60,60,69,0
 Style: episode title,Arial,60,&H00EFF5F5,&H000000FF,&H000059A5,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,90,1
-Style: signs_brown,Arial,60,&H000F2352,&H000000FF,&H00F4F8FA,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
-Style: sign_note,Comic Sans MS,51,&H002B3447,&H000000FF,&H00E4EEF1,&H00000000,0,0,0,0,100,100,0,0,1,6,0,2,30,30,30,1
 Style: OPJP,Rosemary,50,&H00FFFFFF,&H00FFFFFF,&H004E4FDE,&H00FFFFFF,0,0,0,0,100,100,0,0,1,4,0,8,0,0,30,1
 Style: EDJP,2R9BOATD,70,&H007D7CF9,&H00FFFFFF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,3,0,1,2.2,0,7,30,30,20,128
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:11.00,main,,0,0,0,,{\fs50\an7\fe162\b\fad(400,400)\bord2\blur5\shad\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)}{\c&HFFFF00&}{\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\pos(60,63)}{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} künefe-kun\N{\pos(60,111)}{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\pos(60,111)}{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
+Dialogue: 0,0:00:00.00,0:00:11.00,main,,0,0,0,,{\fs50\an7\fe162\fad(400,400)\bord2\blur5\shad0\4c&H000000&\4a&HFF&\fnSweetest Cat Ever}\N{\pos(20,-2)\c&HFFFF00&\4c&H8485E4&}\NSomeSub ekip arkadaşı arıyor!\N{\c&HFFFFFF&}Çevirmen:{\c&HFFFF00&} künefe-kun\N{\c&HFFFFFF&}Encode:{\c&HFFFF00&} Velnoxy\N{\c&HFFFFFF&}Redaktör:{\c&HFFFF00&} Itsu\N{\c&HFFFFFF&}Discord:{\c&HFFFF00&} discord.gg/somesub \N
 Dialogue: 0,0:00:45.44,0:00:48.19,OPJP,,0,0,0,,{\fad(150,150)\blur1}Koi no shunkan umarekawaru
 Dialogue: 0,0:00:48.19,0:00:51.07,OPJP,,0,0,0,,{\fad(150,150)\blur1}Aozora to kimi dake na no
 Dialogue: 0,0:00:51.57,0:00:56.91,OPJP,,0,0,0,,{\fad(150,150)\blur1}(Turtledove  shuua Turtledove padupaa)
@@ -54,7 +45,7 @@ Dialogue: 0,0:01:13.64,0:01:19.31,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Hep o if
 Dialogue: 0,0:01:19.31,0:01:23.90,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Fark etmeyeceksin, değil mi? Bugün de hayal kırıklığı.
 Dialogue: 0,0:01:24.90,0:01:30.45,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Lan Lan hadi aşkın adımını oynayalım Tu Tu
 Dialogue: 0,0:01:30.45,0:01:33.32,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}"Daha fazlasını bilmek istiyorum", "Yaklaşmak istiyorum",\N "Bana bak", "Lütfen duygularımı fark et!"
-Dialogue: 0,0:01:33.32,0:01:36.49,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}
+Dialogue: 0,0:01:33.32,0:01:36.49,OPJP,,0,0,0,,
 Dialogue: 0,0:01:38.75,0:01:44.67,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Senden hoşlanıyorum. Senden hoşlanıyorum. "Seni seviyorum!" diye bağırmak istiyorum
 Dialogue: 0,0:01:44.67,0:01:50.26,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Sadece benim, sadece benim, arkanı dön ve gülümse
 Dialogue: 0,0:01:50.26,0:01:55.93,OPJP,,0,0,0,,{\fad(150,150)\blur1\an2}Garip. Seni düşündüğümde dünya renkleniyor.
@@ -96,46 +87,12 @@ Dialogue: 0,0:23:01.44,0:23:04.26,EDJP,,0,0,0,,{\fad(200,200)\an3}Dualarımı r�
 Dialogue: 0,0:23:04.26,0:23:07.18,EDJP,,0,0,0,,{\fad(200,200)\an3}sesinin geldiği yöne
 Dialogue: 0,0:23:07.18,0:23:10.64,EDJP,,0,0,0,,{\fad(200,200)\an3}Bu şekilsiz, yeri doldurulamaz duygular,
 Dialogue: 0,0:23:10.64,0:23:14.12,EDJP,,0,0,0,,{\fad(200,200)\an3}bir gün kelimelere dönüşecek
-Dialogue: 2,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{=23}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fade(800,0)\bord0\t(23,3694,\bord0)}2. Bölüm
-Dialogue: 2,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{=22}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur1\fade(800,0)\bord0\t(23,3694,\bord0)}Korudukları Şeyler
-Dialogue: 1,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{=21}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fade(800,0)\bord5\t(23,3694,\bord4.25)\c&HEFF5F5&\1a&HDA&}2. Bölüm
-Dialogue: 1,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{=20}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur0\fade(800,0)\bord5\t(23,3694,\bord4.25)\c&HEFF5F5&\1a&HDA&}Korudukları Şeyler
-Dialogue: 0,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{=19}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\bord6\t(23,3694,\bord5.1)\move(966.46,402.58,962.96,422.58,23,3694)\blur10\fade(800,0)\c&HEFF5F5&\1a&HE9&}2. Bölüm
-Dialogue: 0,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{=18}{\clip()\fscx100\t(23,3694,\fscx85.06)\fscy100\t(23,3694,\fscy85.06)\bord6\t(23,3694,\bord5.1)\move(968.62,728.09,964.79,699.47,23,3694)\blur10\fade(800,0)\c&HEFF5F5&\1a&HE9&}Korudukları Şeyler
-Dialogue: 0,0:02:27.45,0:02:28.91,sign_note,text,0,0,0,,{\bord2\c&H574DF2&\3c&H382CA8&\fade(400,1)\move(1772.391,514.311,1757.304,466.884)}Kıskandım...
-Dialogue: 0,0:06:32.03,0:06:34.87,sign_note,text,0,0,0,,{\bord2\3c&H3332A1&\c&H5B57FB&\fade(400,1)\move(211.179,623.175,175.623,457.188)}Kıskandım...
-Dialogue: 0,0:11:36.96,0:11:40.01,sign_note,text,0,0,0,,{\fade(2000,0)\bord0\blur0.5\fs60\pos(1312.323,748.203)}O nota
-Dialogue: 0,0:11:41.05,0:11:44.01,sign_note,text,0,0,0,,{\fade(2000,0)\bord0\blur0.5\fs57\pos(1265.994,217.902)}Lawren'ın bu yönünü ilk kez görüyorum.
-Dialogue: 0,0:15:05.96,0:15:06.18,sign_note,text,0,0,0,,{\fade(150,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(304.4,385.51)}Haksızlık\N\N\N\N\N\h\h\h\h\h\h\hHaksızlık
-Dialogue: 0,0:15:06.18,0:15:06.26,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
-Dialogue: 0,0:15:06.26,0:15:06.59,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
-Dialogue: 0,0:15:06.59,0:15:06.93,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
-Dialogue: 0,0:15:06.93,0:15:07.26,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
-Dialogue: 0,0:15:07.26,0:15:07.55,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
-Dialogue: 0,0:15:07.55,0:15:07.85,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
-Dialogue: 0,0:15:07.85,0:15:08.10,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
-Dialogue: 0,0:15:08.10,0:15:08.43,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
-Dialogue: 0,0:15:08.43,0:15:08.80,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
-Dialogue: 0,0:15:08.80,0:15:09.14,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
-Dialogue: 0,0:15:09.14,0:15:09.47,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
-Dialogue: 0,0:15:09.47,0:15:09.76,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
-Dialogue: 0,0:15:09.76,0:15:10.10,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
-Dialogue: 0,0:15:10.10,0:15:10.30,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz350.1\pos(342.4,206.4)}Haksızlık
-Dialogue: 0,0:15:06.26,0:15:06.59,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
-Dialogue: 0,0:15:06.93,0:15:07.26,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
-Dialogue: 0,0:15:07.55,0:15:07.85,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
-Dialogue: 0,0:15:08.10,0:15:08.43,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
-Dialogue: 0,0:15:08.80,0:15:09.14,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
-Dialogue: 0,0:15:09.47,0:15:09.76,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
-Dialogue: 0,0:15:10.10,0:15:10.30,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\frz351.7\pos(334.8,339.11)}Haksızlık
-Dialogue: 0,0:15:06.18,0:15:06.26,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(310.4,238.4)}Haksızlık
-Dialogue: 0,0:15:06.59,0:15:06.93,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
-Dialogue: 0,0:15:07.26,0:15:07.55,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
-Dialogue: 0,0:15:07.85,0:15:08.10,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
-Dialogue: 0,0:15:08.43,0:15:08.80,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
-Dialogue: 0,0:15:09.14,0:15:09.47,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
-Dialogue: 0,0:15:09.76,0:15:10.10,sign_note,text,0,0,0,,{\fade(0,0)\bord0\blur0.5\3c&H7570F1&\c&H3B3474&\pos(346,372.71)}Haksızlık
-Dialogue: 0,0:14:31.64,0:14:33.89,signs_brown,text,0,0,0,,{\fs50\blur0.5\bord0\pos(1199.73,91.17)}Bütün köy
+Dialogue: 2,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fad(800,0)\bord0\t(23,3694,\bord0)}2. Bölüm
+Dialogue: 2,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur1\fad(800,0)\bord0\t(23,3694,\bord0)}Korudukları Şeyler
+Dialogue: 1,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(966.46,402.58,962.96,422.58,23,3694)\blur1\fad(800,0)\bord5\t(23,3694,\bord4.25)\1a&HDA&}2. Bölüm
+Dialogue: 1,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\move(968.62,728.09,964.79,699.47,23,3694)\blur0\fad(800,0)\bord5\t(23,3694,\bord4.25)\1a&HDA&}Korudukları Şeyler
+Dialogue: 0,0:02:12.24,0:02:15.99,episode title,text; top line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\t(23,3694,\bord5.1)\move(966.46,402.58,962.96,422.58,23,3694)\blur10\fad(800,0)\1a&HE9&}2. Bölüm
+Dialogue: 0,0:02:12.24,0:02:15.99,episode title,text; bottom line,0,0,0,,{\t(23,3694,\fscx85.06)\t(23,3694,\fscy85.06)\t(23,3694,\bord5.1)\move(968.62,728.09,964.79,699.47,23,3694)\blur10\fad(800,0)\1a&HE9&}Korudukları Şeyler
 Dialogue: 99,0:11:49.01,0:11:53.38,main,young Lawrence,0,0,0,,Yine burada tökezledim! Of!
 Dialogue: 99,0:11:54.33,0:11:59.10,main,grandpa,0,0,0,,{\an8}Çünkü sadece o kısımda\Nnotanın ilerisini takip etmiyorsun.
 Dialogue: 99,0:11:59.66,0:12:05.08,main,young Lawrence,0,0,0,,Dede, yeni bir azizenin\Nbulunması bu kadar önemli mi?
